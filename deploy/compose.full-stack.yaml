@@ -1,0 +1,9 @@
+include:
+  - path: ./compose.yaml
+  - path: ./vendor/ragflow-v0.27.1/docker/docker-compose.yml
+    env_file: ./vendor/ragflow-v0.27.1/docker/.env
+
+# Start with:
+# docker compose -f deploy/compose.full-stack.yaml --profile full-stack --profile cpu up -d
+# The vendored RAGFlow .env must set COMPOSE_PROFILES=elasticsearch,cpu and
+# RAGFLOW_IMAGE=infiniflow/ragflow:v0.27.1 (or its offline digest-pinned alias).

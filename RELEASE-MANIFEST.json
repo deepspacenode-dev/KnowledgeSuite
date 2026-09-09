@@ -1,0 +1,126 @@
+{
+  "release_label": "2.0.3-complete",
+  "suite_version": "2.0.3",
+  "source_revision": "3b09277ce77a66402fc6750caa9f9b1c59b959a7",
+  "component_versions": {
+    "skills": "2.0.3",
+    "worker": "2.0.3",
+    "governance": "2.0.3",
+    "contracts": "2.0.3",
+    "fake_ragflow": "2.0.3"
+  },
+  "deployment_profiles": [
+    "external-ragflow",
+    "full-stack"
+  ],
+  "files": {
+    "drv-knowledge-skills-v2.0.3.zip": {
+      "sha256": "e3a3d9d381c4673aa2de846d1919e6263d5d90ca8e1f92df7beea565ff558a9a",
+      "size": 95604107
+    },
+    "drv-knowledge-governance-v2.0.3.zip": {
+      "sha256": "4e90e30bf35f322bdd597ecccfb65f0260c596f543cd4d68cc2cddcf98cff65a",
+      "size": 485359
+    },
+    "drv-knowledge-contracts-v2.0.3.zip": {
+      "sha256": "98ec8ce86ad7821cd2e4758368b23b7293a5c4eadcff388ad9f5f2fa5aab1614",
+      "size": 15012
+    },
+    "drv-knowledge-suite-v2.0.3.spdx.json": {
+      "sha256": "51a1dfc145076d6be16a47e5bab815374e623ce0136c73a7c97b8ef6f24e11ff",
+      "size": 97016
+    },
+    "drv-knowledge-worker-v2.0.3.oci.tar.zst": {
+      "sha256": "de63370fccdb55b709f89c21a0edbf154cd1e757d2fcb1e3dff9a0ef69f0fd71",
+      "size": 31448084
+    },
+    "drv-knowledge-bookstack-v2.0.3.oci.tar.zst": {
+      "sha256": "e8b814aef0450d1aba05e0a29f5d98e6107e8e282b5b9656e0687477f00425a5",
+      "size": 71233644
+    },
+    "drv-knowledge-fake-ragflow-v2.0.3.oci.tar.zst": {
+      "sha256": "250dc222f3672599e6758221e9677c618e088cfd3e31818cc40d0ef91432752a",
+      "size": 31433192
+    },
+    "drv-knowledge-suite-v2.0.3-complete-source.zip": {
+      "sha256": "d4e47d339588fc1de03fc80f8e2117fcf1da9a9e85b044326eab8fb883b4ed1a",
+      "size": 1953745
+    },
+    "docs/DEPLOYMENT_V2.md": {
+      "sha256": "adb941b3dae5e349fe639f0a0b9453a09dafb9779380e05b3cad193ffe876e6f",
+      "size": 3440
+    },
+    "docs/RAGFLOW_V027_P0_DEPLOYMENT.md": {
+      "sha256": "9cd7a42b3697893c3feda6f5a337fb67c1d1165579306367a1af4f48904fb342",
+      "size": 3975
+    },
+    "docs/COMPATIBILITY_MATRIX.md": {
+      "sha256": "3e4f95f4cca414bbe1af4d84511b3db0b2ecff4b5e6b3bcd930cef5212868525",
+      "size": 1110
+    },
+    "docs/ACCEPTANCE_CHECKLIST_V2.md": {
+      "sha256": "dfa31c6fb6f13b633c5888c20dcb728f77a24683786ab88bc8fc631c998986f0",
+      "size": 1347
+    },
+    "docs/CLOUD_INTRANET_SIMULATION_REPORT_2026-08-31.md": {
+      "sha256": "ef15033255e028207e08ee679d9f085c866aab8a5f69467b4bb8541a445babb8",
+      "size": 15529
+    },
+    "docs/P0_CLOUD_ACCEPTANCE_V2.0.2_20260904.md": {
+      "sha256": "6da49e298ff2c5d870d62c420ecea938c1f84e1c77c0e04c64dec2fa629f9ef7",
+      "size": 4182
+    },
+    "docs/COMPLETE_DELIVERY_V2.0.2_20260904.md": {
+      "sha256": "2a5567a566dd58b04ed1db4d6f16a280fb465602b9cae1e87e59196a6543a100",
+      "size": 3202
+    },
+    "docs/V2.0.3_DEPLOYMENT_AND_ACCEPTANCE.md": {
+      "sha256": "de09cc1682134216e1636bb64b7c86bcef68341a27736fccb7334e491b6f96c0",
+      "size": 5766
+    },
+    "docs/V2.0.3_CHANGELOG.md": {
+      "sha256": "84ef452df73bfe1087485e83fc2a4a90b8bb9f254b23f85c54416dafa0c2d414",
+      "size": 2756
+    },
+    "docs/GOVERNANCE_DEPLOY.md": {
+      "sha256": "00d07b432e3e4927bcfda7258b4048fe11006d22101533c0e19c8c8db5df12fa",
+      "size": 20454
+    },
+    "deploy/compose.yaml": {
+      "sha256": "16be2523b94a8aed0fa0909970510a7410095c1f350c55688a34c96494a1ec55",
+      "size": 5279
+    },
+    "deploy/compose.full-stack.yaml": {
+      "sha256": "968c0319465c694f4fcb430429b76f55359f9faf8b18082aacbd4248972da144",
+      "size": 410
+    },
+    "deploy/.env.example": {
+      "sha256": "0a89ac83b780cf7eb3932b185eb6659caba74d7d7167e1e6da69e266268d2c92",
+      "size": 1641
+    },
+    "deploy/scripts/import-oci.sh": {
+      "sha256": "15c5a11e02acc1d306149b94f7e91f88e64bab702d72b684a0a89c6a0cb5f4a7",
+      "size": 957
+    },
+    "deploy/scripts/backup.sh": {
+      "sha256": "0bc05737857d0fbcb5cb10b5a4849f6eccdb2435cb3e0dffc443a97614b173cc",
+      "size": 986
+    },
+    "deploy/scripts/upgrade.sh": {
+      "sha256": "3210fd2e03a73bafa2a78758f36e8eab51c5a0e80bb31cfb63bdb5fd20b8d53f",
+      "size": 566
+    },
+    "deploy/scripts/rollback.sh": {
+      "sha256": "8f75e04c4fac7685eb2bf2163a57f49040416b99e52701d67a70396c79ea1600",
+      "size": 697
+    },
+    "deploy/scripts/smoke.sh": {
+      "sha256": "6326c991fbb10f81a938592a90d49b79fd34c4d50ee43aadc1a2db68028e5aa9",
+      "size": 748
+    },
+    "extras/ragflow-manuals-cleaned-v1.1.0-20260904.zip": {
+      "sha256": "0cc04e3a5edfc1e01e20813984b7c2999d9bb814683c88faa41b9dc9be1d59cb",
+      "size": 14900067
+    }
+  }
+}

@@ -1,0 +1,124 @@
+name: drv-knowledge-suite
+
+services:
+  governance-db:
+    image: mariadb@sha256:54ac814d243128263e18cf818f7abb611bf43a7a95ce8aa102d18f527b1516d1
+    profiles: [external-ragflow, full-stack]
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${BOOKSTACK_DB_DATABASE:-bookstackapp}
+      MARIADB_USER: ${BOOKSTACK_DB_USERNAME:-bookstack}
+      MARIADB_PASSWORD: ${BOOKSTACK_DB_PASSWORD:?set BOOKSTACK_DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${BOOKSTACK_DB_ROOT_PASSWORD:?set BOOKSTACK_DB_ROOT_PASSWORD}
+    volumes:
+      - governance-db-data:/var/lib/mysql
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    networks: [drv-knowledge]
+
+  governance-bookstack:
+    image: ${DRV_BOOKSTACK_IMAGE:-drvknowledge/bookstack-governance:2.0.3}
+    build:
+      context: ../components/governance
+      dockerfile: docker/bookstack/Dockerfile
+    profiles: [external-ragflow, full-stack]
+    restart: unless-stopped
+    depends_on:
+      governance-db:
+        condition: service_healthy
+    ports:
+      - ${BOOKSTACK_HTTP_PORT:-6875}:80
+    environment:
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+      TZ: ${TZ:-Asia/Shanghai}
+      APP_URL: ${BOOKSTACK_APP_URL:-http://127.0.0.1:6875}
+      BOOKSTACK_PUBLIC_URL: ${BOOKSTACK_PUBLIC_URL:-http://127.0.0.1:6875}
+      DB_HOST: governance-db
+      DB_PORT: 3306
+      DB_DATABASE: ${BOOKSTACK_DB_DATABASE:-bookstackapp}
+      DB_USERNAME: ${BOOKSTACK_DB_USERNAME:-bookstack}
+      DB_PASSWORD: ${BOOKSTACK_DB_PASSWORD:?set BOOKSTACK_DB_PASSWORD}
+      AI_GOVERNANCE_WORKER_KEY: ${AI_GOVERNANCE_WORKER_KEY:?set AI_GOVERNANCE_WORKER_KEY}
+      AI_GOVERNANCE_DEFAULT_COMPILER: ${AI_GOVERNANCE_DEFAULT_COMPILER:-offline}
+      RAGFLOW_BASE_URL: ${RAGFLOW_BASE_URL:-}
+      RAGFLOW_WEB_URL: ${RAGFLOW_WEB_URL:-}
+      RAGFLOW_API_KEY: ${RAGFLOW_API_KEY:-}
+      RAGFLOW_DEFAULT_DATASET_ID: ${RAGFLOW_DEFAULT_DATASET_ID:-}
+      RAGFLOW_CHAT_BASE_URL: ${RAGFLOW_CHAT_BASE_URL:-}
+      RAGFLOW_CHAT_API_KEY: ${RAGFLOW_CHAT_API_KEY:-}
+      RAGFLOW_CHAT_ID: ${RAGFLOW_CHAT_ID:-}
+      RAGFLOW_CHAT_TIMEOUT_SECONDS: ${RAGFLOW_CHAT_TIMEOUT_SECONDS:-120}
+      RAGFLOW_WIDGET_ENABLED: ${RAGFLOW_WIDGET_ENABLED:-false}
+      RAGFLOW_WIDGET_BASE_URL: ${RAGFLOW_WIDGET_BASE_URL:-}
+      RAGFLOW_WIDGET_PATH: ${RAGFLOW_WIDGET_PATH:-/chats/widget}
+      RAGFLOW_WIDGET_SHARED_ID: ${RAGFLOW_WIDGET_SHARED_ID:-}
+      RAGFLOW_WIDGET_AUTH: ${RAGFLOW_WIDGET_AUTH:-}
+      RAGFLOW_WIDGET_STREAMING: ${RAGFLOW_WIDGET_STREAMING:-false}
+      RAGFLOW_WIDGET_MUTED: ${RAGFLOW_WIDGET_MUTED:-true}
+      RAGFLOW_WIDGET_ACCENT_COLOR: ${RAGFLOW_WIDGET_ACCENT_COLOR:-#2563eb}
+      RAGFLOW_WIDGET_BACKGROUND_COLOR: ${RAGFLOW_WIDGET_BACKGROUND_COLOR:-#ffffff}
+      RAGFLOW_WIDGET_TEXT_COLOR: ${RAGFLOW_WIDGET_TEXT_COLOR:-#111827}
+      RAGFLOW_WIDGET_HEADER_TEXT_COLOR: ${RAGFLOW_WIDGET_HEADER_TEXT_COLOR:-#ffffff}
+      RAGFLOW_WIDGET_FOOTER_TEXT_COLOR: ${RAGFLOW_WIDGET_FOOTER_TEXT_COLOR:-#111827}
+      RAGFLOW_WIDGET_TITLE: ${RAGFLOW_WIDGET_TITLE:-Drv Knowledge Assistant}
+      RAGFLOW_WIDGET_SUBTITLE: ${RAGFLOW_WIDGET_SUBTITLE:-Governed enterprise knowledge}
+      RAGFLOW_WIDGET_FOOTER: ${RAGFLOW_WIDGET_FOOTER:-Drv Knowledge Suite}
+      RAGFLOW_WIDGET_FOOTER_LINK: ${RAGFLOW_WIDGET_FOOTER_LINK:-}
+      RAGFLOW_WIDGET_ALLOWED_PATHS: ${RAGFLOW_WIDGET_ALLOWED_PATHS:-/chats/widget,/next-chats/widget}
+      RAGFLOW_WIDGET_ALLOW_MEDIA: ${RAGFLOW_WIDGET_ALLOW_MEDIA:-false}
+      RAGFLOW_WIDGET_LOAD_TIMEOUT_MS: ${RAGFLOW_WIDGET_LOAD_TIMEOUT_MS:-12000}
+      RAGFLOW_MARKDOWN_CHUNK_TOKENS: ${RAGFLOW_MARKDOWN_CHUNK_TOKENS:-512}
+      RAGFLOW_VERSION_PATH: ${RAGFLOW_VERSION_PATH:-/api/v1/system/version}
+    volumes:
+      - governance-bookstack-config:/config
+    healthcheck:
+      test: [CMD-SHELL, "curl -fsS http://127.0.0.1/login >/dev/null || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 40
+    networks: [drv-knowledge]
+
+  knowledge-worker:
+    image: ${DRV_WORKER_IMAGE:-drvknowledge/worker:2.0.3}
+    build:
+      context: ../components/skills/worker
+      dockerfile: Dockerfile
+    profiles: [external-ragflow, full-stack]
+    restart: unless-stopped
+    depends_on:
+      governance-bookstack:
+        condition: service_healthy
+    environment:
+      GOVERNANCE_BASE_URL: http://governance-bookstack
+      GOVERNANCE_WORKER_ID: ${GOVERNANCE_WORKER_ID:-drv-worker-01}
+      GOVERNANCE_WORKER_KEY: ${AI_GOVERNANCE_WORKER_KEY:?set AI_GOVERNANCE_WORKER_KEY}
+      WORKER_COMPILER: ${WORKER_COMPILER:-offline}
+      RAGFLOW_BASE_URL: ${RAGFLOW_BASE_URL:-}
+      RAGFLOW_API_KEY: ${RAGFLOW_API_KEY:-}
+      RAGFLOW_WORKFLOW_ID: ${RAGFLOW_WORKFLOW_ID:-}
+      OPENAI_COMPATIBLE_BASE_URL: ${OPENAI_COMPATIBLE_BASE_URL:-}
+      OPENAI_COMPATIBLE_API_KEY: ${OPENAI_COMPATIBLE_API_KEY:-}
+      OPENAI_COMPATIBLE_MODEL: ${OPENAI_COMPATIBLE_MODEL:-}
+    networks: [drv-knowledge]
+
+  fake-ragflow:
+    image: drvknowledge/fake-ragflow:2.0.3
+    build:
+      context: fake-ragflow
+      dockerfile: Dockerfile
+    profiles: [test]
+    ports:
+      - ${FAKE_RAGFLOW_PORT:-9380}:9380
+    networks: [drv-knowledge]
+
+volumes:
+  governance-db-data:
+  governance-bookstack-config:
+
+networks:
+  drv-knowledge:
+    name: drv-knowledge

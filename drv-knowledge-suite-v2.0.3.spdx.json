@@ -1,0 +1,2376 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "drv-knowledge-suite-2.0.3",
+  "files": [
+    {
+      "path": "baselines/provenance.json",
+      "sha256": "11af7357b30599cbcbd07483533ccb1858df5d785a2fb7cb4b33c2b7acf319f7",
+      "bytes": 1462
+    },
+    {
+      "path": "components/governance/.env.example",
+      "sha256": "3e9d2e97e21e37b164d58cf6633920d5fdaa7842e84c0230b62b58817ff56973",
+      "bytes": 1679
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Assistant/AssistantConfig.php",
+      "sha256": "26c81c2fcd277839ae7c6ba70b617c6e28c42350d3d0709aafa8229a0cfde840",
+      "bytes": 6620
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Compile/AcceptWikiResult.php",
+      "sha256": "fa6030c40067e4d5586fc54dbf5f0408d73a1c5f66e2ac37366c32c3f23b6829",
+      "bytes": 6766
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Compile/QueueCompileTask.php",
+      "sha256": "afffa6a441d0a254cf7871615d6dce9ed44048f8f45e7f939f70e36327cb0219",
+      "bytes": 2923
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Compile/ValidateSourceIdentity.php",
+      "sha256": "19d194ee921ffe5d2c49501045cb38358193f739e2ea3869c9b3293dcc6e2fb9",
+      "bytes": 1479
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Compile/WikiTaskV2Builder.php",
+      "sha256": "489e0e7dd470df82d8f9963ae4d88ca30117993b27460741a964d2b1db2c5bb1",
+      "bytes": 3520
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Contract/ContractValidatorV2.php",
+      "sha256": "be963779178386c465c02b119687f55779c539381b8895a715dd140572151b4d",
+      "bytes": 8915
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Contribution/ContributionMetrics.php",
+      "sha256": "38bab9141d13d3df2ab6d1f9e2309667eafe8584b3f58ca2f2c1436f613c7210",
+      "bytes": 3359
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Gap/DeleteKnowledgeGap.php",
+      "sha256": "afc4904fa27599b16d9423d9ab7248048866ace32a214c43522c862968265953",
+      "bytes": 1873
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Graph/GraphLinkFactory.php",
+      "sha256": "3a58070f607d2f559e4e8f66eaa1afd46574bc124bd24fc75ceac58c0e667508",
+      "bytes": 1388
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Graph/GraphNodeFactory.php",
+      "sha256": "39e7b18df1bf6e7e31dfe759fabd6df0d0ad7e13c7ccb3d10207b5fc08fe2ab2",
+      "bytes": 7664
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Graph/GraphStatusMapper.php",
+      "sha256": "118447595a73679ae951c88d7f3dc72985fddd6b80f167c7801e35ffb4bd5f85",
+      "bytes": 2608
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Intake/CreateIntake.php",
+      "sha256": "0af2019e3dce498a68fd1a55b537454015a6dc23dc4041d1ae793b80898b45c1",
+      "bytes": 5271
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Intake/IntakeResponse.php",
+      "sha256": "b74a884d2d9dd1f31123eaaa3b39c0fbaccfb50e296b4ecb2b0faff6daabb666",
+      "bytes": 821
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Quality/quality-rules.json",
+      "sha256": "c01ae9256726c3e47792ef74c3feecf65cd3c87227671b31a88df0e65280d1b4",
+      "bytes": 1975
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Quality/QualityExplanation.php",
+      "sha256": "ec677b257309faa9a3ce8a98b1667f226145e73f6c772b95579fdf63af413fec",
+      "bytes": 8312
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Quality/QualityGate.php",
+      "sha256": "80603ccd2786dfee25c831a71cd64c270b2303b024f908b3071ebcde7972bff5",
+      "bytes": 3475
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Quality/QualityIssueUnitQuery.php",
+      "sha256": "6aab3a4c4f5e1c571d1eced972b96e3daa2c9be963d5483dc22b4c426f924186",
+      "bytes": 7066
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Quality/QualityUnitAggregator.php",
+      "sha256": "c6be402a218472b60859284bdb10265eef05f9ebbe9f45f100f50c8660b0170a",
+      "bytes": 3102
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Query/AssetListQuery.php",
+      "sha256": "6d86c2feb3a9606c3e4cedfd7ee35d6bcd0b6337c9f4de540118d2992ac91eb2",
+      "bytes": 2882
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Query/GovernanceSummaryQuery.php",
+      "sha256": "22228aa43f7fe143a7bafb415220a9d5c28c79f0f0ea97510810cba922a588c2",
+      "bytes": 1422
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Query/KnowledgeGraphQuery.php",
+      "sha256": "ee646a27e23fbc454437dd69b081e421fcb63d92af1958870d1c010b8b5acd7c",
+      "bytes": 30846
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/AiShelfPolicy.php",
+      "sha256": "e4540bd9db1cede327dfde32cb49369a5cb6b88e4f527cb674dc8d35630e78da",
+      "bytes": 951
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/PublishReviewUnit.php",
+      "sha256": "70d1928275ab2da693b2737ef0c22143104249f6d7e579d25ef539c53da5999b",
+      "bytes": 3537
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/PublishWikiAsset.php",
+      "sha256": "4eb679351423c8792a94e1afdcb54229f0f478c81b0c7001b4c83d1473a7cccc",
+      "bytes": 12493
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/QueueReviewedWikiForPublish.php",
+      "sha256": "11d5dde16792a01293ac2a569c42dfc6ee0606407d3b8b6f83d5bd7233e916e1",
+      "bytes": 1456
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/RagDatasetResolver.php",
+      "sha256": "86089ff18391f770fae8f8baee419f33baec24fb6ae79e7ad35cdd54fca64bb4",
+      "bytes": 1777
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/RefreshRagSnapshots.php",
+      "sha256": "15435188a59b4118b680e49d294152b65cca678b972c06f680eeffdfd1681c4e",
+      "bytes": 2664
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Rag/RemoveWikiAssetFromRag.php",
+      "sha256": "9fd822db35ba29e47a537c04679af8ad0e71163ca63197d43477380fa3512da7",
+      "bytes": 5528
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Report/GenerateGovernanceReport.php",
+      "sha256": "47920d40b71e79eecab48fd1dfd3bbf51185bffdaf92187a96e0c07e67048425",
+      "bytes": 5996
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Review/MarkReview.php",
+      "sha256": "13f63191bc9bac6b54672c91c131563bda153849b9b51a79709a5b98dda35d83",
+      "bytes": 6334
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Review/MarkReviewUnit.php",
+      "sha256": "e916800b4aa9cf267d20af12b05f34a6a617c9a7fbf84c07e6df8b4eef4b881c",
+      "bytes": 3060
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Review/ReviewUnitQuery.php",
+      "sha256": "942843201ac656e0f0fbb09affb523be3133f85f095d62a4695eb7056553b598",
+      "bytes": 6051
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Review/ReviewUnitResolver.php",
+      "sha256": "cebce985f632aad9d4dd41611070d21549bc6f5fdc613f02b8fcd9893fa51096",
+      "bytes": 2744
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Status/ResolveGovernanceStatus.php",
+      "sha256": "5c84305aba060ac1a854c51c4b8f08d7744afa29b677b713ecd46f1be8da6ba4",
+      "bytes": 3725
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Sync/ReconcileBookStackDrafts.php",
+      "sha256": "45f95f40981c4c3cc16ce07563a0604931d7192691c5c689ff3a25c1a3dc5892",
+      "bytes": 2242
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Application/Sync/RefreshQualityChecks.php",
+      "sha256": "d0e7863227e64680109e31ea83c1a6c0f02c201a7fdb1c30d5653e2c8c579452",
+      "bytes": 2206
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/ActionResult.php",
+      "sha256": "793d7e70182722ca3b54c3d37ad4369e18716adaea9d9f6e1ac2457b7725568c",
+      "bytes": 250
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/AssetType.php",
+      "sha256": "ead6103acad8afc8ca6f2180b3d341decd5f75d33d9381d6c257c297acf2459c",
+      "bytes": 155
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/CompileStatus.php",
+      "sha256": "b4c358722968e8982f0dc33bab5d42eb3502727204a37d5074d4a72f5dc24a48",
+      "bytes": 262
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/RagStatus.php",
+      "sha256": "cdf17457afee615d3427833705740710ed04c52cf12e8a948632cf64392795fe",
+      "bytes": 312
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/ReviewStatus.php",
+      "sha256": "eec5097c59c360a5413b821a3a158978c0b37175924931a09dc5142d6d275f19",
+      "bytes": 345
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/state-machines.json",
+      "sha256": "16892579b0ff6509297f4722ec6644b4f4f2fc6fe496a0b49474ea8303ec5a22",
+      "bytes": 1271
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Domain/StateTransition.php",
+      "sha256": "1709ef79b4a40118125583593292330d8e90c441ba31ea6bf25cdb9f7f309ee1",
+      "bytes": 2957
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/ApiResponse.php",
+      "sha256": "2fa4211760a4bf6bdd2b69c1a646bafa6c4dc19ef7fc6fea89c0842d2aefb792",
+      "bytes": 1123
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/GovernancePageController.php",
+      "sha256": "3d5e97b3a6105e38575f384e3ea3b1b2c42a7e1d555911930457e81122abbfd4",
+      "bytes": 992
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/Internal/CompileTaskController.php",
+      "sha256": "70e54437b921c128871d83141ae263508e924f5821d03ecdaf4793d545b63b24",
+      "bytes": 1601
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/Internal/CompileTaskV2Controller.php",
+      "sha256": "da5795b2accf5ec1c382a3201cbef362b71f72fd878676e2405d6d303f8ddf26",
+      "bytes": 2449
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/Internal/InternalEventController.php",
+      "sha256": "f875d0d1fe34713aa717b34d29d5338f8d539052a8d04e9663f131aa5897ce10",
+      "bytes": 834
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/Internal/RagSnapshotController.php",
+      "sha256": "232c95bcf5787c6ec1dda4ed2ade3bd8cb46305b84841df6ead43d68f64bc057",
+      "bytes": 830
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/Internal/WorkerEventV2Controller.php",
+      "sha256": "b4fd9e2e82ba51da120bfedf58e2c49662bae8df4cc061e0a4cc3e1ddad8b233",
+      "bytes": 1225
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/AssetController.php",
+      "sha256": "11eb3a221391e5ca46a3b1e6662af91d5a449dea8f92e0746e94c6dfbf7f53e1",
+      "bytes": 2094
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/BookshelfFilterController.php",
+      "sha256": "30b9d142af89ab36ac26ca289b8c1552f0036dcd98f54432afd11f61d947eadb",
+      "bytes": 445
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/CompileCommandController.php",
+      "sha256": "859d5f7978e4d76f330df1104298bea954efa42f9c565c226917cacd9b07a26f",
+      "bytes": 1342
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/ContributionController.php",
+      "sha256": "b87ebfdeb20cf27cbf34fc5cff71c628fe56ba03298e22bd0e3ea92e544ce4dd",
+      "bytes": 659
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/DiagnosisController.php",
+      "sha256": "c9036b98f8dd5105ecc5954b9348abaaea1a2da35676c88becd0b92a08d3346d",
+      "bytes": 667
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/GapCommandController.php",
+      "sha256": "077c9c0aebefaefde3cf3bf1e899cb513ed05e9898481d3312395ccf8fbaed62",
+      "bytes": 2508
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/GapController.php",
+      "sha256": "6fef2e5f924bb0e1292e0b94239bd9ce605453fd870dbbd6f5d7f58429148339",
+      "bytes": 670
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/KnowledgeGraphController.php",
+      "sha256": "c3bdd93854c8f932e5986dd07a2f7b5f9f1788c68cef905445e48d58dd03e0fb",
+      "bytes": 861
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/QualityController.php",
+      "sha256": "951ef862dc2c2789d2eae2e90d71d7cc6441e4b2318c5535e54d63d2c2ab7073",
+      "bytes": 480
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/QualityRulesController.php",
+      "sha256": "c128e1625d9bb1bcff4b46c1928f3455c51cb75939494d2bf8b7683303923a54",
+      "bytes": 424
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/RagCommandController.php",
+      "sha256": "9eeaa098f1a0838732f14b5050d0839b9bf61f5eda3dcf691349bad860ea8e24",
+      "bytes": 1811
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/RagController.php",
+      "sha256": "1e26ea47a24675e3947137c1ec18aae1b094937ad72f6cceb1678868a9a8d77f",
+      "bytes": 2458
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/RagRemovalController.php",
+      "sha256": "14a4c9f3e04a0e2e4de6403a0294feb61c53d2c5d0e7028beeb2e9ff59398874",
+      "bytes": 1640
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/ReportCommandController.php",
+      "sha256": "9ea4706982ffefd3adcfb02334e422bedd69d366e00098e11f1e543035bba7c5",
+      "bytes": 1167
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/ReportController.php",
+      "sha256": "977394e125be355d626755147dfd3bd7549ae27d046ea3c1634b0cb4b3e60fb1",
+      "bytes": 475
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/ReviewController.php",
+      "sha256": "c3b8abe161c1439f6fc7ad123fdf63bd0fb0e4428bca3ac0e446f1f2c028ebdb",
+      "bytes": 972
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/ReviewUnitController.php",
+      "sha256": "1aa5eea4dae37654cd148725b077fa61350b70dfdd77cd58bab0fb2025ba7f2f",
+      "bytes": 2145
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/SummaryController.php",
+      "sha256": "09544e228efc1003ca17d0d60b3a060145a41868ceb79e8cd0c13a1c720e23c1",
+      "bytes": 1511
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V1/SyncController.php",
+      "sha256": "0ac6464214024ff8603bdb6941aec144f9c7e9f91f085abcd54785dae0b4c956",
+      "bytes": 1824
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V2/AssistantConfigController.php",
+      "sha256": "04c4f3de0bc839867fa8465dca7c0dfc80865dc7c85dcf022e7de036fb9abd98",
+      "bytes": 416
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V2/ChatController.php",
+      "sha256": "bb784fba9a349406cc283c864897e26372055eceec595677ce787109d729af46",
+      "bytes": 3045
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V2/IntakeController.php",
+      "sha256": "9c2be714de1cae435b917cf8014d9a0ce9173f8739c18b8d51cab9d8a09e7a3d",
+      "bytes": 2176
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Controllers/V2/StatusController.php",
+      "sha256": "42e7d979583fb790bb5fea2a4a6a1d92ab73aff679931102f0fed984cbe132e1",
+      "bytes": 899
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Http/Middleware/VerifyWorkerSignature.php",
+      "sha256": "cd45bcc27c6b305cd7edb5869aaffb2b0c06319f24cada19d6d275fa7ca8a095",
+      "bytes": 1998
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/BookStack/ArticleImageCollector.php",
+      "sha256": "3a5b4888904cc193dbd5afe0bea807b097690ebcee06a0414b8d40d01fa6cce4",
+      "bytes": 7011
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/BookStack/BookStackHierarchyQuery.php",
+      "sha256": "1c433bf7f716bd79f7c8cca7116fd4005eec638513237efa02aa1cfd0360b4ac",
+      "bytes": 10629
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/BookStack/BookStackIdentityAdapter.php",
+      "sha256": "f6cf0c18c3499829469afc17ca03c308aa9c120ab843f9f47efb926996ad0471",
+      "bytes": 1679
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/BookStack/BookStackPageExporter.php",
+      "sha256": "9abce244c24fb90e222dd129f9402f7a5e99232a234588c3cf164fdf7c7895ba",
+      "bytes": 4065
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/BookStack/GovernanceHeadContentProvider.php",
+      "sha256": "7e8d6467d90bb7bd832f668122c90c9a51034e9492f8a6fe2af212ee4cbecefb",
+      "bytes": 1454
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/BookStack/ReadablePageQuery.php",
+      "sha256": "71611a5f8cd70934c98886c4d1ab21c22bb6a64be16388ecfcdc65e8976f09c2",
+      "bytes": 1651
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/AssetRepository.php",
+      "sha256": "b6ded2950d145d011c6a893212dac79d4183ff97e4154f9ea4044e3142b27c54",
+      "bytes": 2995
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/AuditEventRepository.php",
+      "sha256": "26304b88e1d0222cecea03224d28da552397b5302688c6882cd33f8bdf859f73",
+      "bytes": 2599
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/CompileTaskRepository.php",
+      "sha256": "776a5931d87c2c86c46460a6312e6e790699face930c3440698e259b0294fd5e",
+      "bytes": 4999
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/GapRepository.php",
+      "sha256": "7334182242a2613906e5c4b417570ce1cd2149ee7bbddd541ea23cf56b7d69f4",
+      "bytes": 981
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/IntakeRepository.php",
+      "sha256": "9c7885ae25f50c6e4b5d70058603a86191ec1ac18019749d0acae03fa05572c8",
+      "bytes": 1092
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/QualityCheckRepository.php",
+      "sha256": "ce9f5365d10fe6abaa8b8dda220008ec0cedb2f06779f24612c4c0c39098b10b",
+      "bytes": 648
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/RagSnapshotRepository.php",
+      "sha256": "69076a3bd2010c77ea1993941b2232ec64714c30ac093156ea0ffebfe9c5d4e6",
+      "bytes": 973
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/ReportRepository.php",
+      "sha256": "e30e6ca7ef38f812886f5a3bc57b6ca1fd6ee1e56b53293426b1389ba8c60eb9",
+      "bytes": 552
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/Persistence/ReviewRepository.php",
+      "sha256": "fccc3a241c4cf5506e017ee1c486ebb809344b9a562dbd2d9c17172dc664cce0",
+      "bytes": 909
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Infrastructure/RagFlow/RagFlowGateway.php",
+      "sha256": "80082bbe5f5330a427db1d5922144e8abfbf0f4c6b51451a926b57a0669a1379",
+      "bytes": 15280
+    },
+    {
+      "path": "components/governance/bookstack-overlay/app/AI/Governance/Providers/AiGovernanceServiceProvider.php",
+      "sha256": "a36dd56442fc6049b6bb1b0b7200d709cac2e28121db0a80721b1397299c45fd",
+      "bytes": 667
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_05_000001_create_drv_kb_assets_table.php",
+      "sha256": "584407d4d28930f75de4309f98bf87673ec9041ba7350f7ddcde76d51b24e2f0",
+      "bytes": 1356
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_05_000002_create_drv_kb_compile_tasks_table.php",
+      "sha256": "4ad697fcd985b29a8f29c6ec59237fe06e0afb815f0dbeca17bed43da9a451fe",
+      "bytes": 1606
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_05_000003_create_drv_kb_reviews_table.php",
+      "sha256": "05275c94fffcac17aaf91b11c3735754a6f70188cd27b113d39725d4a8840e26",
+      "bytes": 1217
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_05_000004_create_drv_kb_quality_checks_table.php",
+      "sha256": "da37599e6d56707a59b27872735332f182b041814757ebefe56b4c2e080de091",
+      "bytes": 1103
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_05_000005_create_drv_kb_gaps_and_reports_tables.php",
+      "sha256": "f8e9d3d30707b04b55df3b084679c17b7f8862bc98401542f3ea45edd90d6685",
+      "bytes": 1976
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_05_000006_create_drv_kb_rag_snapshot_and_audit_events_tables.php",
+      "sha256": "c57b74bec874b3167b1172e0bb567df8b9fd72fe9cc2fedd1e70c5698aa6e0e6",
+      "bytes": 2187
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_07_06_000007_add_image_documents_to_drv_kb_rag_snapshot.php",
+      "sha256": "8f4908316246c4a58142cf56939511c920dbf0a5461583076f1d440f6e00ce64",
+      "bytes": 802
+    },
+    {
+      "path": "components/governance/bookstack-overlay/database/migrations/2026_08_30_000008_create_drv_kb_intakes_table.php",
+      "sha256": "efb60af2d15fd8db656e6ae6009e5ecb79214f30b8693a727d5eda7c045d78e2",
+      "bytes": 1687
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/ai-assistant-governance-entry.css",
+      "sha256": "1c07715b9b0927a83949444c9a48621e5131430ef53c13f8bca2a5b389711278",
+      "bytes": 14624
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/ai-assistant-governance-entry.js",
+      "sha256": "87d72effe6931ca80c16320b6b3a798d271d9dd62ebbdabb664415d5ecbaed07",
+      "bytes": 17013
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/grokbot-avatar.js",
+      "sha256": "cbb77c073df881d21703f75bbfd0a749d43486da85fb3ebf72b96478dc54222a",
+      "bytes": 14957
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/bloub-avatar.css",
+      "sha256": "9da9407b1dddf04b68a4f9f40a3e4236024bf6bdd18fd42ac7f7ed439aee684e",
+      "bytes": 731
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/bloub-avatar.iife.js",
+      "sha256": "c444e6a45d4a58f9f4bcccf521ef5659beddddfb4e29b7c8dddcc3db8ef76c4e",
+      "bytes": 98749
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/BUILD.md",
+      "sha256": "7a5a663c4d65a7f8203d80735016f415f3edfdc05b20bf385c1dc83a243864c2",
+      "bytes": 1220
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/LICENSE-MIT.txt",
+      "sha256": "d43fe2742faaf4a86210ec33bb155f101f64883e3994be9193099367940736b4",
+      "bytes": 1072
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/source/bookstack-avatar-i18n.ts",
+      "sha256": "b01df5949c8d7eb2c2214984f2e7527b9c29e9dd36ec6142db55d310aec2519c",
+      "bytes": 193
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/source/bookstack-avatar-runtime.ts",
+      "sha256": "cad354c7d1929ebc7487d5ec672793a3b6511145f4d0f6440c4d4a63bc789ad0",
+      "bytes": 15188
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/source/upstream-blink-api.patch",
+      "sha256": "f0a2e8783001264483b5e5ea8fd9d674d7686420ee16079326985fe928ccbf89",
+      "bytes": 970
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/source/vite.bookstack-avatar.config.ts",
+      "sha256": "5338c43518652ca5992f0e4226cf2a9fde7d1e07f01b75d06ad4aadff724a5d9",
+      "bytes": 1394
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/bloub/UPSTREAM.json",
+      "sha256": "c765e477e9e92d0f188743b1ce325d99a48acc5472ca6dc7a1d049acc42012b0",
+      "bytes": 1358
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/grokbot/grokbot-data.js",
+      "sha256": "117e869cb98242fe2cc34861cc179cef30ae95b717b0d8531df61666d54b388c",
+      "bytes": 92790
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/grokbot/LICENSE-BSD-3-Clause.txt",
+      "sha256": "dd388449b31845422129345d5f3e83218180230234c10df428df7af104147122",
+      "bytes": 1514
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/grokbot/LICENSE-MIT.txt",
+      "sha256": "184a2c7688dae3100536caa7ed178d391ecc27011687372565bb123000d0cd6a",
+      "bytes": 1066
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-assistant/vendor/grokbot/UPSTREAM.json",
+      "sha256": "014984f10d68258fd0b26118570a932dc8808a1744fce07f21810ed1e824d0a3",
+      "bytes": 731
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/api-client.js",
+      "sha256": "15c3e9eaaa346b706f9a8694bf78179c7c97fc2b642f910c1be3055c24f471aa",
+      "bytes": 3810
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/app-shell.js",
+      "sha256": "455d02139f5b96ece5e7135e92015dd0fce1e75b848cb6802d7d46ccebc1d9a5",
+      "bytes": 4590
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/demo-data.js",
+      "sha256": "1ea906350dff3714a0ed418f733a167022da2c53ab65fcff64dda81bd0b98ea4",
+      "bytes": 28240
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/knowledge-graph-controls.js",
+      "sha256": "fed657da37b9e4b719dd58f024de1436999590532f8aff4db8187e4d96059f84",
+      "bytes": 2719
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/knowledge-graph-details.js",
+      "sha256": "b465931f9138718a033a8c4417b43e1b1a8cefe9636b1e3f365a5a468545aaec",
+      "bytes": 3128
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/knowledge-graph-theme.js",
+      "sha256": "2991add7bf7aa615425e4a187ab40fe50f2d2d36e16c8e71ea74d7394b62663c",
+      "bytes": 1954
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/knowledge-graph-view.js",
+      "sha256": "802d4d5dfba70e8e7a963f7c3b88c8206f7d5c6f5bb0fb234f9552165e65c4dc",
+      "bytes": 1823
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/knowledge-graph.js",
+      "sha256": "ae0294b46f32ae6923ba18397483378b10b469306df821089c90d367c80f5b1e",
+      "bytes": 23520
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/main.js",
+      "sha256": "bde4964fe060336076f554ecd172d2b5447beb93d3e89c8d548e2dfbdbea46d3",
+      "bytes": 23093
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/particle-wave.js",
+      "sha256": "7317c5b83e28c8373b1caa1e364d6a588db4abd72378fc83b0405523bc93f583",
+      "bytes": 4382
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/router.js",
+      "sha256": "3921338632777532da5eba186ab6546f116c3e95afced05524ec9f75a90a8827",
+      "bytes": 1336
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/ui.js",
+      "sha256": "9fcfc6866e01922a567c022f2a3864c29f70cc75cc29d86d70d316cb14b400f6",
+      "bytes": 2340
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/app/views.js",
+      "sha256": "5100d87b8db6aae07a93dd75a998daae168198c14f1eb409642fa71ba2fedab4",
+      "bytes": 26898
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/assets/css/governance.css",
+      "sha256": "327bc70a8add3b966f211433ce4d30f919d8d74d8a4f2a7002017d1340d4e25d",
+      "bytes": 32585
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/assets/css/knowledge-graph.css",
+      "sha256": "f6b43395d5d4eacdb2676345b77d01dee7f38bd1ebdc5c01cdb75aeb7ef91994",
+      "bytes": 5530
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/index.html",
+      "sha256": "09a825dc95ab25ff80811e42906fa7c248327e42cd2375677008d1874179928a",
+      "bytes": 849
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/vendor/3d-force-graph/3d-force-graph.module.js",
+      "sha256": "a8968708240907258809c91538b99b49e8022734fed84c4790a146bba79510c6",
+      "bytes": 24357
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/vendor/3d-force-graph/LICENSE",
+      "sha256": "8f45f5fbdd9bce78ba5d5866fe09c89efa57d107ef5bcf22a03da1796dc96f6b",
+      "bytes": 496
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/vendor/lucide/LICENSE",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/vendor/lucide/lucide.min.js",
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766",
+      "bytes": 397450
+    },
+    {
+      "path": "components/governance/bookstack-overlay/public/ai-governance/vendor/three/three.module.js",
+      "sha256": "245ab2dbbdc8ef6a1b32ac0d15f45eaf893e10a9967d0f4fb84fb75409bccbfc",
+      "bytes": 613
+    },
+    {
+      "path": "components/governance/bookstack-overlay/routes/ai-governance-page.php",
+      "sha256": "873f2febabe0bddac440c4d3636d0605dc9e4ceba8db421563e3e276e5d6a7cb",
+      "bytes": 307
+    },
+    {
+      "path": "components/governance/bookstack-overlay/routes/ai-governance.php",
+      "sha256": "521f541cc31fc845355520ed13b53718ad9d49682401b0e03a2b486fe5cf7bf6",
+      "bytes": 5692
+    },
+    {
+      "path": "components/governance/CHANGELOG.md",
+      "sha256": "b9658260c45110a45d8ab4ab1fec1de0fa8a6a72fb1b136b181c62ff7dd0974c",
+      "bytes": 6332
+    },
+    {
+      "path": "components/governance/CHANGELOG_KNOWLEDGE_GRAPH.md",
+      "sha256": "ecb938853e924b8279693644cad465be4aa26c6d7814e8625dcc9947f3f742be",
+      "bytes": 5345
+    },
+    {
+      "path": "components/governance/compat/supported-bookstack.json",
+      "sha256": "6da54428654d0d7321e78767aa76e91ea428627e5b18498d43fcff7b4125f309",
+      "bytes": 2019
+    },
+    {
+      "path": "components/governance/composer.json",
+      "sha256": "849944099b306cc7c4ede9863cb0eb59023ba670c447e1eeb68ffd1a9888b40b",
+      "bytes": 685
+    },
+    {
+      "path": "components/governance/contracts/internal-event.schema.json",
+      "sha256": "1bb63ce4984557071c1b72de3ed803b25f22f1836c944d20f08a4a8d269923ac",
+      "bytes": 653
+    },
+    {
+      "path": "components/governance/contracts/knowledge-bundle.schema.json",
+      "sha256": "fa0c99ac31492f172391e7d3e849c40270f9c65a2b05bf738fbb2b92ec01ec2f",
+      "bytes": 3242
+    },
+    {
+      "path": "components/governance/contracts/knowledge-delta.schema.json",
+      "sha256": "7bfb77b53d5e9e1872af22d94f430e463d9bb3de53556c739a126a2ab7ffcb40",
+      "bytes": 4509
+    },
+    {
+      "path": "components/governance/contracts/quality-gate.schema.json",
+      "sha256": "dbcfd92bbb8db34ae4619486e151ac432b7de77fa0a141f0136c2c2ca4716b59",
+      "bytes": 2177
+    },
+    {
+      "path": "components/governance/contracts/SOURCE.json",
+      "sha256": "9d4ba26d38406543339fe2a6b85844c22e87a815b3cfe087d6e538e2274f458d",
+      "bytes": 373
+    },
+    {
+      "path": "components/governance/contracts/wiki-compile-job.schema.json",
+      "sha256": "cf2243510e91c587acf7187066eb495393ba40d583a33d97630c1b6ce9b7e224",
+      "bytes": 4287
+    },
+    {
+      "path": "components/governance/contracts/wiki-result.schema.json",
+      "sha256": "c49c55113871049e76ab4c3605973ca15d67a4899ebb95dc68a7d2b303e6223e",
+      "bytes": 4216
+    },
+    {
+      "path": "components/governance/contracts/wiki-task.schema.json",
+      "sha256": "5ac9914d4a6b247e0aa73f8c4a6d8bcab2d345c33b960c732a23f47f9b29ce56",
+      "bytes": 4339
+    },
+    {
+      "path": "components/governance/DEPLOY.md",
+      "sha256": "00d07b432e3e4927bcfda7258b4048fe11006d22101533c0e19c8c8db5df12fa",
+      "bytes": 20454
+    },
+    {
+      "path": "components/governance/docker/bookstack/Dockerfile",
+      "sha256": "5b8953c06571486daf1a66c669ee16629f22f660a09527a9ab275d9190779499",
+      "bytes": 2964
+    },
+    {
+      "path": "components/governance/docker/bookstack/root/custom-cont-init.d/90-drv-governance-permissions",
+      "sha256": "204ab015c942be0ea9ea5c5cea2a1ab87461c4267409198646221cf4abde798d",
+      "bytes": 282
+    },
+    {
+      "path": "components/governance/docs/superpowers/plans/2026-08-27-shelf-review-graph-migration.md",
+      "sha256": "d3e304553e5ad005d3e49a1e00219581addec2c62fb5703b409ba25c5e500561",
+      "bytes": 6722
+    },
+    {
+      "path": "components/governance/docs/superpowers/specs/2026-08-27-shelf-review-graph-migration-design.md",
+      "sha256": "648f618d7922391d1e7446d233ff211ce5e8510758838c00d22ec48cb5c8eda9",
+      "bytes": 3801
+    },
+    {
+      "path": "components/governance/KNOWLEDGE_GRAPH_DEPLOY.md",
+      "sha256": "1031ab8b66693451309629b1b0195c33bf0157fa981678e059a196eff8882c20",
+      "bytes": 8266
+    },
+    {
+      "path": "components/governance/KNOWLEDGE_GRAPH_LAYERED_ORBITS.md",
+      "sha256": "9043968697f103a5b45cf72e58d8964b97a842f71e4f2cb406012806dc735429",
+      "bytes": 2905
+    },
+    {
+      "path": "components/governance/KNOWLEDGE_GRAPH_RADIAL_LAYOUT_UPDATE.md",
+      "sha256": "b8a30dbb4e3bb88df4fcdccd230f4d9562980344c41c87791fcb684e0af80cad",
+      "bytes": 1269
+    },
+    {
+      "path": "components/governance/KNOWLEDGE_GRAPH_STRUCTURE_FIX.md",
+      "sha256": "30c5cfe87880a5eab075cada5c8412c2dc09fb4e02e5c7f2b186cb347e18319f",
+      "bytes": 2796
+    },
+    {
+      "path": "components/governance/KNOWLEDGE_GRAPH_TEST_CHECKLIST.md",
+      "sha256": "3342ec282007948875467eac2c3aba968bf7fe572b3bdec36f1a0e44d1a8dba8",
+      "bytes": 2653
+    },
+    {
+      "path": "components/governance/PATCH_NOTES_20260908.md",
+      "sha256": "987e01403e01dda244e84e001eb71b33792f452b8498a15dc6bb4cd49b535890",
+      "bytes": 2960
+    },
+    {
+      "path": "components/governance/phpunit.xml",
+      "sha256": "33f1094bc62036b6cb024c5a4b49678d4d97bc7a0d08111820ef93e1b3e23ede",
+      "bytes": 426
+    },
+    {
+      "path": "components/governance/README.md",
+      "sha256": "c7ffdf13fc0b0770a3d484b719d0bcae0542afda1ba3c21ed02cd45083fef003",
+      "bytes": 2979
+    },
+    {
+      "path": "components/governance/scripts/install.ps1",
+      "sha256": "c09626b1ded394c6705afa0be2febb3c890e87aed6287a893b19a6f0c5067a33",
+      "bytes": 4860
+    },
+    {
+      "path": "components/governance/scripts/install.sh",
+      "sha256": "40870ddc463bac00f89bf3044745c41150dbe63a38b8c4928c34ebdf28818a9a",
+      "bytes": 2819
+    },
+    {
+      "path": "components/governance/scripts/migrate-json.php",
+      "sha256": "caae45b72f3114bb40b1e7b69dc63d4f96382ef2739794fade8719e383a09146",
+      "bytes": 6033
+    },
+    {
+      "path": "components/governance/scripts/preflight-bookstack.sh",
+      "sha256": "bdadf7a724ad22e83caef1b2036d10a28c269c36f5617e6276d4f2caa524ce8f",
+      "bytes": 7745
+    },
+    {
+      "path": "components/governance/scripts/preflight-integrations.ps1",
+      "sha256": "e46be4ebaf9618a8ed7f19fb4dfbc3a39eb379048729c4b665d40b2a207cd812",
+      "bytes": 5396
+    },
+    {
+      "path": "components/governance/scripts/test-in-bookstack.ps1",
+      "sha256": "ebd13cda30856a06844a8d3924f09e98990348f119bf46055e0d6b931b477641",
+      "bytes": 3173
+    },
+    {
+      "path": "components/governance/scripts/uninstall.ps1",
+      "sha256": "28cfdb0516c94466925d5a3d1b615696211f4c62233db52e66ad5b3264bf115d",
+      "bytes": 2506
+    },
+    {
+      "path": "components/governance/scripts/uninstall.sh",
+      "sha256": "8e210cfdb5c642c15dde17e5ce5c067e29c0d9d48a1253a788b70100ca8cc2b5",
+      "bytes": 1868
+    },
+    {
+      "path": "components/governance/scripts/verify-package.ps1",
+      "sha256": "409e03f5d0f903a4253d4527f80abaf0942800e39109f9f222d69477c03d823b",
+      "bytes": 2597
+    },
+    {
+      "path": "components/governance/scripts/visual-check.mjs",
+      "sha256": "a7841f33aceee71866ff48c8158e66874322df34b66634093f86d0661f1bbc56",
+      "bytes": 3607
+    },
+    {
+      "path": "components/governance/SHA256SUMS.json",
+      "sha256": "94a39c1c1f96a77dca4301669b472c6b4e081bbb5c7a2f99f53bc6d79bd8ec02",
+      "bytes": 28518
+    },
+    {
+      "path": "components/governance/TEST_CHECKLIST.md",
+      "sha256": "07af268c7ed885902acb2e9c8e81f34934d44dc2174a37df57f7092f24be168c",
+      "bytes": 3321
+    },
+    {
+      "path": "components/governance/tests/bootstrap.php",
+      "sha256": "418dd58e0bb076848a6d4faa3f4cf3ca10cbb111e3186df18b87cb9f1a8950b9",
+      "bytes": 1021
+    },
+    {
+      "path": "components/governance/tests/cloud-bootstrap.php",
+      "sha256": "766ec98eed7109e79a77d2b10380086b021d50f6a4f4126ae3e27ac1fe4870ca",
+      "bytes": 617
+    },
+    {
+      "path": "components/governance/tests/Contract/wiki-contracts.node.test.mjs",
+      "sha256": "801f8e36425d9532ca132c98f91f27ddb15e199d7f074c2e41452001d1506b94",
+      "bytes": 1496
+    },
+    {
+      "path": "components/governance/tests/e2e/fixtures/grokbot-preview.html",
+      "sha256": "168963ed72e1c850f3a3867bca00a971f4fbac3dc7e0ee2b702205a813318d7b",
+      "bytes": 4387
+    },
+    {
+      "path": "components/governance/tests/e2e/grokbot-browser.node.test.mjs",
+      "sha256": "f20aadb1423fd40030c937e0496336ebf26fb7de13af54f60ef5dc6b9b3c8d32",
+      "bytes": 4253
+    },
+    {
+      "path": "components/governance/tests/Feature/Api/V1/gaps-reports.node.test.mjs",
+      "sha256": "7ff67596d0ca33bf86a53a4d068a899e12a8351b5f41fbf0079625406e366ed2",
+      "bytes": 3776
+    },
+    {
+      "path": "components/governance/tests/Feature/Api/V1/knowledge-graph.node.test.mjs",
+      "sha256": "11ddbf475977f3bc4bcfebf6e99b3b9651b8ea84e9be968c544f80849a1b38f9",
+      "bytes": 5149
+    },
+    {
+      "path": "components/governance/tests/Feature/Api/V1/read-api.node.test.mjs",
+      "sha256": "f03181f5739dfab1cbd62101b39bae5ac6899c0451381fd81e38c6aa0b6c04ac",
+      "bytes": 7113
+    },
+    {
+      "path": "components/governance/tests/Feature/Api/V1/review-units.node.test.mjs",
+      "sha256": "117f2b1882462d0a82b8ceb6114bdd963e2b23e6eef745b2f3ce1d96b2b057f1",
+      "bytes": 4014
+    },
+    {
+      "path": "components/governance/tests/Feature/Api/V2/v2-api.node.test.mjs",
+      "sha256": "f835245204d63a6aa7f842925e65cbee5b0ab40e9dd30e8a9a4ffc75853d3bc1",
+      "bytes": 6146
+    },
+    {
+      "path": "components/governance/tests/Feature/Auth/governance-authorization.node.test.mjs",
+      "sha256": "b4ca8d86d616471777401fe7d48ff800c9e80953fb1334bd8a66c8ecea434802",
+      "bytes": 1866
+    },
+    {
+      "path": "components/governance/tests/Feature/Deployment/package-delivery.node.test.mjs",
+      "sha256": "d44c111e450db7dbc08648ef700daec7f0509540848e5805a60affa9f097f67b",
+      "bytes": 5446
+    },
+    {
+      "path": "components/governance/tests/Feature/Integration/governance-entry.node.test.mjs",
+      "sha256": "81528a2ee3c679bb77b1c9424705d8fde78e86eb64468bae2a1a465b2ba1314d",
+      "bytes": 14071
+    },
+    {
+      "path": "components/governance/tests/Feature/Internal/worker-api.node.test.mjs",
+      "sha256": "fafa1cb6de4f912e77cbfb9883652669fbf977da3a138c2cd74242e132b324a7",
+      "bytes": 3589
+    },
+    {
+      "path": "components/governance/tests/Feature/Persistence/governance-schema.node.test.mjs",
+      "sha256": "66d93a4162e5c969a233b5a5cc3ba9837a955c8875d89a0b624ecff9401e39b8",
+      "bytes": 3685
+    },
+    {
+      "path": "components/governance/tests/Feature/Persistence/GovernanceSchemaTest.php",
+      "sha256": "9495921f4ec39708dfa7098a4e306c3ca614babddfe87e1b868829a4383bd86a",
+      "bytes": 1048
+    },
+    {
+      "path": "components/governance/tests/Feature/Rag/rag-images.node.test.mjs",
+      "sha256": "df4c4e91dea1f70efe547fbbba72261b500f15794c49800684fb0a68de950978",
+      "bytes": 1990
+    },
+    {
+      "path": "components/governance/tests/Feature/Rag/rag-publish.node.test.mjs",
+      "sha256": "d885ca0f8c99ce2bf6e0616d4bd23a7c8e34074d8c1eb5df13a0de5eb0507dd8",
+      "bytes": 4846
+    },
+    {
+      "path": "components/governance/tests/Feature/Rag/ragflow-chat.node.test.mjs",
+      "sha256": "c43f6d05564cb7ec6f2f8fd2cc624859b3e1e25d5eb2e8e03d6d529980f1a0e8",
+      "bytes": 3630
+    },
+    {
+      "path": "components/governance/tests/Feature/Rag/ragflow-widget.node.test.mjs",
+      "sha256": "5c3fdeb892e73dc6534da6a3b235304420b902464351fb50e7ce0ef2569fc03c",
+      "bytes": 2517
+    },
+    {
+      "path": "components/governance/tests/Frontend/api-client.node.test.mjs",
+      "sha256": "325380844b6314a5070b1b5b54003335803048210d43b4f6a5b5f15a54776d6b",
+      "bytes": 4669
+    },
+    {
+      "path": "components/governance/tests/Frontend/knowledge-graph-layout.node.test.mjs",
+      "sha256": "aa534ecad44675c24d84ed8dd3b8de7807e33e83f8a1e49faa0f9dad3f94a2a2",
+      "bytes": 14051
+    },
+    {
+      "path": "components/governance/tests/Frontend/router.node.test.mjs",
+      "sha256": "82aba1ba9767015f360f941e577c30ff40929106012ee6781b92fd44acb39b67",
+      "bytes": 1249
+    },
+    {
+      "path": "components/governance/tests/Frontend/ui-contract.node.test.mjs",
+      "sha256": "6a1f904a7e7b5f3687bc8779e710667d5e59f2101f09164c86c83b3a65f48153",
+      "bytes": 19926
+    },
+    {
+      "path": "components/governance/tests/Unit/BookStack/BookStackPageExporterTest.php",
+      "sha256": "252c1aea53562be292eb21c3e64b93437efca47c39267895d7e586d860634a2b",
+      "bytes": 1246
+    },
+    {
+      "path": "components/governance/tests/Unit/Compatibility/compatibility-manifest.node.test.mjs",
+      "sha256": "5e7285995ac773adc9905b832a5b14d8fa6bdfcbbbad0fae22bc86ce5c15df2c",
+      "bytes": 8016
+    },
+    {
+      "path": "components/governance/tests/Unit/Compatibility/CompatibilityManifestTest.php",
+      "sha256": "4ac386bac15ec602dbf649368a4a513b9ec7689e0ce3f32dfd0f2bbf3a00f617",
+      "bytes": 1177
+    },
+    {
+      "path": "components/governance/tests/Unit/Contract/ContractValidatorV2Test.php",
+      "sha256": "957fec19169d2ab5f54fa86a6e4006c84cc2d89451f693b9114df76dea09a48d",
+      "bytes": 4632
+    },
+    {
+      "path": "components/governance/tests/Unit/Domain/state-transition.node.test.mjs",
+      "sha256": "3c75e4d804f009564d7ac5fd6df166bd2bc59e5a5d237fe4847269f61c920b66",
+      "bytes": 3540
+    },
+    {
+      "path": "components/governance/tests/Unit/Domain/StateTransitionTest.php",
+      "sha256": "b51253f5ca440120193e521310d4682afef8fbe0136aadea1e6919ad741bc8bb",
+      "bytes": 2344
+    },
+    {
+      "path": "components/governance/tests/Unit/Intake/IntakeResponseTest.php",
+      "sha256": "b174db55881c9d59d0c64f42cdc42d4ae1f702df30219d554e5acbfad1bc0fda",
+      "bytes": 1278
+    },
+    {
+      "path": "components/governance/tests/Unit/Quality/quality-gate.node.test.mjs",
+      "sha256": "550fae83cb1ea94f63f87fcd13b0d15262a74211fc24d53610dc24aecce3a091",
+      "bytes": 2933
+    },
+    {
+      "path": "components/governance/tests/Unit/Quality/QualityExplanationTest.php",
+      "sha256": "99fef0a0afa54ae2c7504d00baf8526d1b2c3be73feb8cb774dcd491fb55c7f6",
+      "bytes": 1591
+    },
+    {
+      "path": "components/governance/tests/Unit/Quality/QualityGateTest.php",
+      "sha256": "29830869cb6b6a1e83a8b3e3ba3584f48fb274a7487e427a3e36ff2c7d08ec33",
+      "bytes": 2017
+    },
+    {
+      "path": "components/governance/tests/Unit/Rag/AiShelfPolicyTest.php",
+      "sha256": "5e3cf3b156cbdcc88a622168f8f57119ca71f77f6af2c9fde5cbe8e6705d5505",
+      "bytes": 1123
+    },
+    {
+      "path": "components/skills/.gitignore",
+      "sha256": "f2867fcf1a8f2d5237e2027ea21470f85a3611371effcd2dd889972ca945c23c",
+      "bytes": 51
+    },
+    {
+      "path": "components/skills/commands/kb/bootstrap.md",
+      "sha256": "c561fbd75c05b91cbad8ebf51253ad722d7e1825053960aa87509cb15485d9c5",
+      "bytes": 97
+    },
+    {
+      "path": "components/skills/commands/kb/cases.md",
+      "sha256": "3eb5d3e4a005d2c42041740794ec70ebf4762dd470e2021642be1a99c535a169",
+      "bytes": 165
+    },
+    {
+      "path": "components/skills/commands/kb/doctor.md",
+      "sha256": "b1fd8c3a7d0fcf27b1c88c74116c80682387476baeda896cf22b0c04e063cee4",
+      "bytes": 119
+    },
+    {
+      "path": "components/skills/commands/kb/gaps.md",
+      "sha256": "df7ae88db40fa7716f26c358a832504c0c35c05bf5249430cb7a7acd4800c077",
+      "bytes": 86
+    },
+    {
+      "path": "components/skills/commands/kb/graph.md",
+      "sha256": "d4c93ee79f04dd89872392eb8bbb8c2edfe1463b45b4b43b10e3c893fe240381",
+      "bytes": 88
+    },
+    {
+      "path": "components/skills/commands/kb/help.md",
+      "sha256": "70441ce17e8f2bf9113964739295b66e19e286d4b1980002555e3b53a82bd498",
+      "bytes": 128
+    },
+    {
+      "path": "components/skills/commands/kb/ingest.md",
+      "sha256": "89595057ca27b1fb5a5281cc984a0cee1d61c2f87a461d3c59154c99b3e630eb",
+      "bytes": 722
+    },
+    {
+      "path": "components/skills/commands/kb/manuals.md",
+      "sha256": "2cb4980647bd7c83311e0d1c73306535d14efe786f746540b2de1b9c9f43f9dd",
+      "bytes": 204
+    },
+    {
+      "path": "components/skills/commands/kb/recall.md",
+      "sha256": "82ac695e650b442d6c9761e7a15ebef38428b74357b0612a0b085b42cdf03cdc",
+      "bytes": 209
+    },
+    {
+      "path": "components/skills/commands/kb/search.md",
+      "sha256": "b1f55ff0b9a2be014b5b3b636e0e06b435065cb957ec638731c20af38209b22b",
+      "bytes": 158
+    },
+    {
+      "path": "components/skills/commands/kb/status.md",
+      "sha256": "e67ef78d26fc2812827172726ea3b788df131055a94f2174df8cce619643f3fd",
+      "bytes": 96
+    },
+    {
+      "path": "components/skills/commands/kb/where.md",
+      "sha256": "add55444cff120dd80ed77fbeab74eadf9465800b7379b5656c631ebdafaab93",
+      "bytes": 94
+    },
+    {
+      "path": "components/skills/config/env.example",
+      "sha256": "dc04c53f5f5d95f96e56810d48b0c73210a5886e55d860e9a2a1d10bc2b12126",
+      "bytes": 3504
+    },
+    {
+      "path": "components/skills/config/ragflow-chat-assistant.v1.json",
+      "sha256": "d1bf99b40dd2893866b6dbcbb2866e01759220078bd8c3d4e628df2246ee1da9",
+      "bytes": 2536
+    },
+    {
+      "path": "components/skills/config/ragflow-ingestion-profiles.v1.json",
+      "sha256": "d12ad911e1756449048ed0eab2c85f480f0b5ab96457b71c56929260ca4d3e30",
+      "bytes": 2653
+    },
+    {
+      "path": "components/skills/config/site.env.example",
+      "sha256": "372be34423474ef1b8f9007abd7ba51c37fcaf51b45db4e59840515c62603d8e",
+      "bytes": 1223
+    },
+    {
+      "path": "components/skills/docs/ARCHITECTURE.md",
+      "sha256": "096703d40781a5e341b4dfdf53e8d58b273d9a0b30f44df49b33ccadf426d027",
+      "bytes": 2617
+    },
+    {
+      "path": "components/skills/docs/CHANGELOG.md",
+      "sha256": "f85398289bbd685d0eacc44d5975d11a8c6daa2d66304e11f6685f740d0cf602",
+      "bytes": 6788
+    },
+    {
+      "path": "components/skills/docs/DETAILED_DESIGN.md",
+      "sha256": "8a625b31b023a5e02edb7ef607f9bb58a3f98830d3a2d936d5c9b21369ed9934",
+      "bytes": 10091
+    },
+    {
+      "path": "components/skills/docs/history/DEPLOYMENT_LESSONS_V1.0.6.md",
+      "sha256": "f9e1024047669e5eac2d9d983f32e34873ce5ba7f9e65422c7c7d3f97f6bf925",
+      "bytes": 1779
+    },
+    {
+      "path": "components/skills/docs/history/FULL_INSTALL_V1.0.7.md",
+      "sha256": "aa5d4d12b5778b6a1b3aadcaae59344c98651c0ce6e8c335be35a7e391fe1709",
+      "bytes": 3344
+    },
+    {
+      "path": "components/skills/docs/history/INSTALLATION_REFACTOR_REVIEW.md",
+      "sha256": "07804003785d3b020ba48b13de6e45de1930b6cfa090728f19a69c88651c7a03",
+      "bytes": 4202
+    },
+    {
+      "path": "components/skills/docs/history/LOCAL_MANUAL_RECALL_V1.0.6.md",
+      "sha256": "7a7f7d0235b4839cdfec17735a0eabbed89187650e43b30fa8590c3e3375f687",
+      "bytes": 6352
+    },
+    {
+      "path": "components/skills/docs/history/README.md",
+      "sha256": "df0af515dec83200942cb7bf6b323fe0f33bee45e4cc610d4367ee59093fb039",
+      "bytes": 335
+    },
+    {
+      "path": "components/skills/docs/history/REVIEW_OPTIMIZATION.md",
+      "sha256": "5c8dd6861ca1fb560254458dcf57f270bd0fc69dc00845934edd2383d97600c9",
+      "bytes": 2302
+    },
+    {
+      "path": "components/skills/docs/history/UPGRADE_HOTFIX_V1.0.4.1.md",
+      "sha256": "5b3459dcc376fdcac101ab8bacfe5c037562df8175e1d0d081643441c8a8e8d3",
+      "bytes": 2680
+    },
+    {
+      "path": "components/skills/docs/INGESTION_DEPENDENCIES_V1.0.8.md",
+      "sha256": "71d263c4d02c5aff604a03bbfb227ac0908737c68e89686bb068f380dbc3b22a",
+      "bytes": 1033
+    },
+    {
+      "path": "components/skills/docs/MIGRATION.md",
+      "sha256": "0833848bd48cd1abd170600fd6f53a8c4310c6c870a58e069ac1d3600b571b88",
+      "bytes": 1807
+    },
+    {
+      "path": "components/skills/docs/QUICKSTART.md",
+      "sha256": "57b5cf0c15fb16d31c84667affd989e871996c14f98e1f69780468e43b0bfa91",
+      "bytes": 1970
+    },
+    {
+      "path": "components/skills/docs/RAGFLOW_MIGRATION_V2.0.1.md",
+      "sha256": "f23a53d62b3e9e12fca00c80438092fb2679f99d6c3b23e52cf20ca8d8eb7b73",
+      "bytes": 3501
+    },
+    {
+      "path": "components/skills/docs/RECALL_V3_DESIGN_REVIEW.md",
+      "sha256": "d7ac1c13d95ddc2d39babe4f5b451f1d7de6abacdd51107e87cc6bbb9880b67b",
+      "bytes": 6965
+    },
+    {
+      "path": "components/skills/docs/TEST_REPORT.md",
+      "sha256": "fb1b7fe9b1473ad9957dd1a14ab0647a00d0c6cc5d0a23b687e37d673caf4e7b",
+      "bytes": 3470
+    },
+    {
+      "path": "components/skills/docs/THIRD_PARTY_LICENSES.md",
+      "sha256": "922e4fe231b715747541e0041cb9d4fe3cee57cf2e24a6af52c86cd5d3c597d9",
+      "bytes": 873
+    },
+    {
+      "path": "components/skills/install.cmd",
+      "sha256": "46a5ce736131f0f426aa4311daf549750bcac7b70b9361e36e831f69a60b8445",
+      "bytes": 121
+    },
+    {
+      "path": "components/skills/install.py",
+      "sha256": "cf95ee3215569e656729303c649dc560c3bcd43eeb12e9959a072999237d7974",
+      "bytes": 13132
+    },
+    {
+      "path": "components/skills/install.sh",
+      "sha256": "78b0630e4c3bdce3e39ba318f06e624b01cc14b06a177ecc9a4bc3936d0bd638",
+      "bytes": 18075
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/.env.example",
+      "sha256": "f6ef771b5eeacd1658eea6e031a7598da9dce5c0751bca4b9760d551bcfe2a79",
+      "bytes": 2799
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/__init__.py",
+      "sha256": "8c15a7074d65e665a6859522497ddf4f3f4386182c05e075a53e56ed16641eea",
+      "bytes": 60
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/clients/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/clients/bookstack.py",
+      "sha256": "dc20821410c2562be483153d539dcf06b085622a1b2624b62ba525c53350bbed",
+      "bytes": 2664
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/clients/bookstack_writer.py",
+      "sha256": "d556ce716520af73a903239926a14b31d56c7877990d8c27512f6b240fe433e3",
+      "bytes": 3497
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/clients/governance.py",
+      "sha256": "d447aae2844633ed8695eb3adf23d63fab64b81d661d515752da910e0a0b1a1c",
+      "bytes": 2497
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/clients/http_json.py",
+      "sha256": "d4525d0a193f6c5b29ddacc37129aa30b380e1d701dfe501983741b90728a72b",
+      "bytes": 1457
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/clients/ragflow_admin.py",
+      "sha256": "0dbfeffd93e10f04cb06452cd19442bee339a282d02143e20b4268a07f1864e3",
+      "bytes": 6108
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/config/knowledge.json",
+      "sha256": "5c65b4eab1cb116de1de91f2e00ae6e67c2f27625b17df1aef632e7ffaedb44f",
+      "bytes": 6122
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/contracts.py",
+      "sha256": "f1141c32dfb8d5b43b650635c64b9ca26025da3a25b68dbbb604039b97c35aa3",
+      "bytes": 931
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/governance_v2.py",
+      "sha256": "de60cdff3b561689de1313b76c83ae039cf77af73c6f2df0f5b6d7748a24d198",
+      "bytes": 15649
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/knowledge_bundle_v2.py",
+      "sha256": "f2da26344e5c17ef9407eb7137c84cb1f3f8537c3bf90cedb9fb04db6fec18c9",
+      "bytes": 6919
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/preflight.py",
+      "sha256": "82cef4a88860cf06ea562245e40703bb2f97bacc5cbcf21927d28dd3f3c47f74",
+      "bytes": 3148
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/ragflow_control.py",
+      "sha256": "39247374e9e5c1fc26fb637ef6baf6a13cc48ffff92fe4d0ea8f80383e579a3f",
+      "bytes": 6888
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/runtime.py",
+      "sha256": "26ca56c9cebdc92a86a4408f7a2985757d25e29f8eb6198a7b7a917049cb41ac",
+      "bytes": 3775
+    },
+    {
+      "path": "components/skills/lib/drv_knowledge_core/source_metadata.py",
+      "sha256": "f62257ac7fc8be70758b085b476393adc1beef0771e43f5d58d2af5d98948de0",
+      "bytes": 4411
+    },
+    {
+      "path": "components/skills/manuals/01_主控SoC与平台芯片/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "components/skills/manuals/02_网络与通信芯片/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "components/skills/manuals/03_单片机与协处理器/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "components/skills/manuals/04_外设扩展与控制芯片/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "components/skills/manuals/README.md",
+      "sha256": "4828fae05ea975e6967994fde5b197cbe3ef900b005d5f27be6a6ce7de7ea82d",
+      "bytes": 1592
+    },
+    {
+      "path": "components/skills/PACKAGE_MANIFEST.txt",
+      "sha256": "72b83606e4c99cecd8f4090f7cb7cf8fe6a0b59bd6cc0ae8f1972125a38a798e",
+      "bytes": 21137
+    },
+    {
+      "path": "components/skills/README.md",
+      "sha256": "20a32ffcc275593888d904c356361513aef2ae0af8cbfc411557786628e2785b",
+      "bytes": 4056
+    },
+    {
+      "path": "components/skills/requirements/full.txt",
+      "sha256": "fcfb808bb2f0561170f03c3c358d3e1045fac1790084559518f65417427e25ba",
+      "bytes": 306
+    },
+    {
+      "path": "components/skills/requirements/retrieval.txt",
+      "sha256": "f2b5f63421f119d252ceeb1635a0207d329b4ecd44f91763d6bd34d66db2cc3b",
+      "bytes": 71
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/config/defaults.yaml",
+      "sha256": "35418792017afd9b53db22c0e280ee6fe60c266843bffbc9f9dbe55337f5a6a9",
+      "bytes": 430
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/README.md",
+      "sha256": "4e96897d5b72c40a79f8040e8204830bb43f3930e173b6b967931b0c083a7507",
+      "bytes": 748
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/references/experience-writing.md",
+      "sha256": "a2aad9fd782f5ca2ec7a63fa75b31efbde8f08fe3135af19659d69ee159fdfc5",
+      "bytes": 711
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/references/heterogeneous-import.md",
+      "sha256": "293c2279e8411e5f46a5f5b3c1f9e9210ed8bc6b5c5b92657a50f28fc93cabf4",
+      "bytes": 602
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/references/ingest-contract.md",
+      "sha256": "509c300abf28c731880f2f573ea4ecdc3ff1b8b70d22e7b40a7eb3a8c639709d",
+      "bytes": 588
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/references/lifecycle.md",
+      "sha256": "85cd299e837b8880fedeadd5f8daf520806fc1563cd2ca667fba59706d1eeb17",
+      "bytes": 413
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/.gitignore",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "bytes": 23
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/agents/openai.yaml",
+      "sha256": "fbbb09df30270794729809c98dc3355e09475c364d3174e3c8c9ac0ce1deeb40",
+      "bytes": 457
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/ENGINE.md",
+      "sha256": "ee122cab8fd25c7267b4fa37efd24ed23bd38504eb5b12f50bfcbf548fb90101",
+      "bytes": 13787
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/bookstack-rewrite.md",
+      "sha256": "c242c748bd5fe089c6242505343e3ee4a5789b0fc53dc16e7add37f2d8985102",
+      "bytes": 13799
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/bookstack-routing.md",
+      "sha256": "d84d8c275235c88066b5692da1f9b6074b2837e62c2ebbb4f8725071d869cdeb",
+      "bytes": 1991
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/embedded-manual-profiles.md",
+      "sha256": "69437054f0497c3b63c904837b83d285d0efd3250490eb5157c1520571517d5f",
+      "bytes": 13215
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/fidelity-standard.md",
+      "sha256": "7791aeda49216dc24348d2145a508714f6642fa63ca05c2e3d67338ad79bc50e",
+      "bytes": 10365
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/markdown-gate.md",
+      "sha256": "d4a81854334ed15a3f80df96f203e30039baf2ec72b79964edef5df4a25702ca",
+      "bytes": 3412
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/output-contract.md",
+      "sha256": "47a7bbad4fcc43e6e50f3580d1d6bb7456a731804e43aba722882e746896071c",
+      "bytes": 3147
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/rollback-policy.md",
+      "sha256": "8a85e106cab9ccf2900bf9a5d137527874e8a7aa0b543517ac1dc5918644d0b5",
+      "bytes": 1412
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/security-and-config.md",
+      "sha256": "8e291a3d1d3c14662921c51fff5dbc83d32b393f4b9dd3ea09d6afca18e4eca1",
+      "bytes": 1232
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/references/table-verification.md",
+      "sha256": "dae39fc7ba7823d01981bdb17e94e53590153bffd94ca6edda71fb96a2f80991",
+      "bytes": 4658
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/scripts/bookstack_pipeline.py",
+      "sha256": "a9a55c84f851c59a0e3de934fbaff200d4246ea5821b3ffbf15c4937da86b99e",
+      "bytes": 54254
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/scripts/manual_pipeline.py",
+      "sha256": "02a31fbaec2bd78e835e301ee31e8e8ce0bc4d744f47fcbf478e570bcd254045",
+      "bytes": 54601
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/scripts/ragflow_sanitize.py",
+      "sha256": "03582350d626497665d7f7d05d7691a36a88f47caa9472b0b024fbd3fdfab72e",
+      "bytes": 60061
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/scripts/rewrite_audit.py",
+      "sha256": "f3550a17e7211da668c55cabf38633048bc7b196f8f036ee67d64011383df884",
+      "bytes": 28043
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/scripts/self_test.py",
+      "sha256": "cbb64844dd7904adb270427e1bdbd68ee81baa5bc9d13f8a647e49ee63da8940",
+      "bytes": 31989
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/resources/technical-manual-engine/scripts/table_audit.py",
+      "sha256": "67eb9c109a8e018e6064fd50b2ae58d1452ae8b80fb07297bf3e17acabd84c90",
+      "bytes": 27681
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/scripts/ingest_cli.py",
+      "sha256": "ff13c8567faf764f4cd41613c9e56645c0521f4be69126cabd728b98fabd6171",
+      "bytes": 30100
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/SKILL.md",
+      "sha256": "869edd653116af3bb1c283915168405121e92498a06efb406760b1965d578db9",
+      "bytes": 6779
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/templates/case.md",
+      "sha256": "93d5368c7e3173a1a887de2c64479b2e5d24254f278b0dcb5ceaf10df75097fc",
+      "bytes": 249
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/templates/tech_note.md",
+      "sha256": "f36cc16ff69f5d3e9da3ddb2b439e783632866d68c8023e69144ce2b1be638a0",
+      "bytes": 171
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/tests/run_tests.py",
+      "sha256": "92fefa442649e24dff371fae29b3af5157c2ec68111fe2ec949b2b8d4dbefb08",
+      "bytes": 4380
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-ingestion/VERSION",
+      "sha256": "be695fc8092ad3706d7d7d3b5104e1eaf8fe69666e5958e375c9952a06fa9514",
+      "bytes": 6
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/.env.example",
+      "sha256": "33b618b3171e35b8ac99bf623d40986180eebbec347ebad9674010811b213857",
+      "bytes": 2750
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/.gitignore",
+      "sha256": "437f4540cdcecdbda41d6e06ac6863cade37969884f8e9f82b19a13fbced9efa",
+      "bytes": 35
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/agents/openai.yaml",
+      "sha256": "b6176e04a55c1c27a238f1f0dc7a219ff02f81c1712d5dd3c71016361dc663ff",
+      "bytes": 315
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/clients/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/clients/bookstack.py",
+      "sha256": "022253facf090fefd42012de9894f3fc4d3e830c68545cbe2456ec30f751d2d2",
+      "bytes": 70
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/clients/governance.py",
+      "sha256": "71c11c26521c353253b466105c8649769185cb612113c027b5eac9fdf93fc0c1",
+      "bytes": 71
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/clients/http_json.py",
+      "sha256": "05cfb39279813fbb666409ed05613ec2fbda94fd2d83f61657c05564864f6c3a",
+      "bytes": 70
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/clients/ragflow_admin.py",
+      "sha256": "a2744796ff5ec0eae40fa57e4d102306432cae4752bb5e50d66cc9b71a854cd4",
+      "bytes": 74
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/config/README.md",
+      "sha256": "eb2da99348445b61eb798f094953c977f58d60efdbdd9af37b254cfd4de7e38b",
+      "bytes": 118
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/__init__.py",
+      "sha256": "fd420e19154b41debeaf0835315648151cbcef8c0571ff5b6c78716b161d1b26",
+      "bytes": 524
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/browse_engine.py",
+      "sha256": "1ac011b3761ba032481c954ad0c6397e14f9309be09c4dcbb085f68cc12a9d86",
+      "bytes": 11739
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/catalog.py",
+      "sha256": "737b16c4159060c6dae554f9c17f8006875ba2c3c4cf0c325ee8fdc323e1ae51",
+      "bytes": 4177
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/command_router.py",
+      "sha256": "7997966a8e622795cd29bd7279ec33e741aa1a92b87024b538a124e86cf1ae76",
+      "bytes": 1255
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/intent_router.py",
+      "sha256": "92fc448899323e914bbf4688fe6edcf387a51047c6ff3708b2199ee682b82da4",
+      "bytes": 2241
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/link_normalizer.py",
+      "sha256": "adbf54cfaef9402aa03a89838521078cc8f1de65269acb6f0ee0802691cc0c82",
+      "bytes": 150
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/local_manuals.py",
+      "sha256": "5b93806a8d3e2efb3ae3b94e6edfc352e3cf525a5a8c7bf647a916d7d9365de4",
+      "bytes": 13117
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/navigator/source_resolver.py",
+      "sha256": "47cc14b7326294363605ffeeb1f3ce7c0257c034aaed3f328453fe87d1825822",
+      "bytes": 1217
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/README.md",
+      "sha256": "fb6b3d9d2a8ef1e51a25022a486c47be9694af7def5d9afbe85b44ce35bfdfb6",
+      "bytes": 867
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/references/codebuddy-usage.md",
+      "sha256": "ddd4b31326e9b60cd5d20830f92b03304f3afc9fb2c1c364a1d5def087857dd8",
+      "bytes": 2837
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/references/commands.md",
+      "sha256": "5c186d0a02738976b055f4f9891db6959916184132eea4a5b5987b3c2926403f",
+      "bytes": 1017
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/__init__.py",
+      "sha256": "2369422292d29aff74498875b363f1678ddc05b622c1d82e21f6644782f884d1",
+      "bytes": 234
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/cli.py",
+      "sha256": "828f7dcabba1e34370010cc24a7c41f29ba571b36de7c9435ea076d25282450f",
+      "bytes": 5333
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/config.py",
+      "sha256": "373a36a4c3ec7b8d6a1db4d8f4cae62a3b7c49e9ca860a86807cb6fd7cfccc2a",
+      "bytes": 369
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/gap_analyzer.py",
+      "sha256": "822cb3dcf62b325653cd6e4d61243b04dc938e10fe88c8a9a1628ecf0043ae17",
+      "bytes": 6948
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/gap_collector.py",
+      "sha256": "b5c0b873b6432332f389d2ab789188094fc60141cd669c2e148c0098abd209cc",
+      "bytes": 7659
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/gap_store.py",
+      "sha256": "81c66b9bcd90995017fd55e4be71872286eca08b6e8aac70c12319b9a26459cf",
+      "bytes": 2669
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/gap_validator.py",
+      "sha256": "835de0f0ae3ef1c2d11ea913458157cf719edfef5e95e92dff9fe76d757d96f9",
+      "bytes": 5588
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/models.py",
+      "sha256": "eb2c2004b729be2a73484992377d64915183e4bda0ba47d7248598f3a2acdf4c",
+      "bytes": 3097
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/report_generator.py",
+      "sha256": "36b17c449b043f1e7b03c190ca0783391d35e19fecf0aebb5c7f57d42a1d94c2",
+      "bytes": 6173
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/templates/bookstack_page_template.md.j2",
+      "sha256": "5dcd71526b4f24202ddf543683081c1287c7dae2ada44f6689d1bb2994d3eda4",
+      "bytes": 118
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/templates/weekly_report.html.j2",
+      "sha256": "b98c2bcbec0f4cdb21cead7bbe4d28a0eae733006ef748296262c8c31b90ba36",
+      "bytes": 245
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/templates/weekly_report.md.j2",
+      "sha256": "b6f9f25bc79c42ff49c68e4cd3cfee8190cf57813b2f65e62c065ca9bc83a290",
+      "bytes": 147
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/knowledge_gap/todo_builder.py",
+      "sha256": "8002529d59a17ea6e6607f7e87e7e39637a42ef8f8f8cdcf1ebc3b7769bea5f7",
+      "bytes": 4547
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/__init__.py",
+      "sha256": "d09d428cfc97fc24e978202a34a654158e1bbb024caed7cd884c5a82bece1586",
+      "bytes": 97
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/cli.py",
+      "sha256": "c0260a7050d00956acb46adc15738746ce78274a8643b7d501d38e65c5d115ef",
+      "bytes": 1616
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/config_loader.py",
+      "sha256": "5f51e7796ae39fb7fa772498f1074bfe16cc7c144c0ad20237464b583331a76b",
+      "bytes": 777
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/configs/relevance_profiles.yaml",
+      "sha256": "ee6556d83b05771ccc843c41f5ef3dc53a921cce6b38693ec62aaff16a67ea46",
+      "bytes": 1745
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/configs/rerank_rules.yaml",
+      "sha256": "e8a9f7ed912091e0e8acb02735d195fb235ee1585028e40413607ad36dd3810a",
+      "bytes": 998
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/dataset_router.py",
+      "sha256": "8e7c321f07489949ef5cc167e6c413fb91de34c344c9ed19f6b1eb4c89b54645",
+      "bytes": 282
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/document_deduper.py",
+      "sha256": "b9130f1d3684f34dc102bbdf776a2781f36d16fd3b05ffb592a59ad988b07024",
+      "bytes": 1758
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/evaluator.py",
+      "sha256": "ba5301c7b094b1ef4909afde56379bc72f52c0a0ca356cd13a8f1341663da12e",
+      "bytes": 4647
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/evidence_extractor.py",
+      "sha256": "e4117eee5df563934061fca9893dfbaed8d200edb058c63c1b3210a46cf2c4d4",
+      "bytes": 7067
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/feedback_store.py",
+      "sha256": "a97e1c0630208858cc46c96fca7c965199b53300c5e08617498a3c8eb59101f8",
+      "bytes": 6713
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/knowledge_bundle_builder.py",
+      "sha256": "7dde85b4c2a635fbc8076d71b6dc5c00307605b009acb31665e7ab4535e773a0",
+      "bytes": 5872
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/pipeline.py",
+      "sha256": "be5b80f93e4829dd5c309457fdffd541dccb79a79ee7572c71fed717442ead45",
+      "bytes": 3567
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/query_normalizer.py",
+      "sha256": "0652c40828159e94f4c52044704de35e4b37180c8edac63b0f46c2c8746e74aa",
+      "bytes": 5781
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/ragflow_client.py",
+      "sha256": "f636fb3d8f72331b984a99894c0f44c8bab341965b3a1e8c602e257e3217b27a",
+      "bytes": 17988
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/recall_planner.py",
+      "sha256": "a9661f82fd56bc90bf12f1c33f11fcb8d95b788d4c7eb92cb3e6f4d11ac186d7",
+      "bytes": 2344
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/recall_reranker.py",
+      "sha256": "c2226c6d94fc1e55705c3028a2aa8a01cb7d6db599eac4ae18ebe04c4b17f87f",
+      "bytes": 6834
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/recall_trace.py",
+      "sha256": "e79a648b6e6d44dfe333c5d29beb8df71d299c55bdff10d12ddb2ee2898f86df",
+      "bytes": 2021
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/recall/relevance_gate.py",
+      "sha256": "71c8d60a346f2de4bb7f02ee302dbe8c6c1e5204fb219d8a194298b0c3aa8bc3",
+      "bytes": 5833
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/tests/recall/fixtures/recall_results.json",
+      "sha256": "f33a88b0f17428cbfd0299fb462601a19081e5449e8842c41e15a1df22732270",
+      "bytes": 5864
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/tests/recall/live-recall-testset.template.json",
+      "sha256": "ede2861d33861c1db457a5f75457c0ccad0a129746ab8ef33101086264a3174c",
+      "bytes": 488
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/resources/drvkb/tests/recall/recall-testset.json",
+      "sha256": "487980fdde673b340089caf7f3f30c634226bdac97ae2b49983e5aff8c9b192c",
+      "bytes": 2626
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/runtime.py",
+      "sha256": "26c2a98fbf35b34077d25a14c3ce0f5f4cf8e6962b2386f53182f3463d0bb1e5",
+      "bytes": 1060
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/scripts/drvkb_entry.py",
+      "sha256": "2ff218220583bad951f692dfe60c8d3189724081a131f37e82cf7da1d4c4170e",
+      "bytes": 32509
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/SKILL.md",
+      "sha256": "9dd48d1b8dd984634c62b6db013b7d49413207d83a930b55eb601528f73da89e",
+      "bytes": 6323
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-retrieval/VERSION",
+      "sha256": "be695fc8092ad3706d7d7d3b5104e1eaf8fe69666e5958e375c9952a06fa9514",
+      "bytes": 6
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-router/README.md",
+      "sha256": "c6ab69ffa653dbdfa8ed541148e8a2688381eaefc4466b906d1bb829c52278c5",
+      "bytes": 95
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-router/scripts/router_cli.py",
+      "sha256": "2d8b289421065ed944675a45de09783dbcc25d3ab56c1fbefec30e891c0b0538",
+      "bytes": 21540
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-router/SKILL.md",
+      "sha256": "9b585df5cee420ed44fc75330d6ea39905c8ac7a5c9698bf07ee9ec9b865434d",
+      "bytes": 1775
+    },
+    {
+      "path": "components/skills/skills/drv-knowledge-router/VERSION",
+      "sha256": "be695fc8092ad3706d7d7d3b5104e1eaf8fe69666e5958e375c9952a06fa9514",
+      "bytes": 6
+    },
+    {
+      "path": "components/skills/tests/run_all.py",
+      "sha256": "5a03a4717e33b07e7ab4bd4ca2214dc84b23566d64bf72e61d27fa405fa657c0",
+      "bytes": 946
+    },
+    {
+      "path": "components/skills/tests/run_retrieval.py",
+      "sha256": "bb2261361fabe21507180bf36a8bfb847604b66c50af27dcc8031f602f96efeb",
+      "bytes": 672
+    },
+    {
+      "path": "components/skills/tests/test_dependency_check.py",
+      "sha256": "85027df9286b80d10ef2c5125d8c1b664b18410e3e2c6403477b8a8a4fa2b4bc",
+      "bytes": 2340
+    },
+    {
+      "path": "components/skills/tests/test_governance_v2.py",
+      "sha256": "8289592111f86d980db89420e81cd54e3e54dc66d13be3dea8cbfb687ed6c3be",
+      "bytes": 8401
+    },
+    {
+      "path": "components/skills/tests/test_ingestion.py",
+      "sha256": "ff5e18125e56df0838921d889da0e070745797117cb24ec01fd66c5506b50be4",
+      "bytes": 4802
+    },
+    {
+      "path": "components/skills/tests/test_ingestion_v2_flow.py",
+      "sha256": "8f08c27856d57a82866f30bbcd394d3676ad9329298703cce1984e8778abb21b",
+      "bytes": 6096
+    },
+    {
+      "path": "components/skills/tests/test_installer_shell.py",
+      "sha256": "b62b7732726007a4fe5a0457ca6be3403f220cb5617197a1c20ec90a910f5834",
+      "bytes": 8034
+    },
+    {
+      "path": "components/skills/tests/test_knowledge_bundle_v2.py",
+      "sha256": "be25fdd47fd3f6a95cd3ccf167f5ec0b4c23dba1a55a1ebbaec9b4eadc4ce941",
+      "bytes": 4555
+    },
+    {
+      "path": "components/skills/tests/test_local_manuals.py",
+      "sha256": "f8b988ab190a44686fb8fed20aea56cd9baaa8a302e5180668a66745930d66dd",
+      "bytes": 2643
+    },
+    {
+      "path": "components/skills/tests/test_ragflow_control_v2.py",
+      "sha256": "d93fc9da7b6edec53b1f967a096549758c4dfa71ab48646aa87cbb20d65176b2",
+      "bytes": 6842
+    },
+    {
+      "path": "components/skills/tests/test_ragflow_migration_v2.py",
+      "sha256": "a3ddf1744c46336f6793be96a9ba2a5ea1c84b1b251b1186d9adfd9e0110dd2a",
+      "bytes": 19617
+    },
+    {
+      "path": "components/skills/tests/test_ragflow_sanitize.py",
+      "sha256": "b920951f3ca02be85aa63d85c1f1b7e48d124801684bbd96e2789eadbe4b3855",
+      "bytes": 18073
+    },
+    {
+      "path": "components/skills/tests/test_retrieval.py",
+      "sha256": "85245be78085a1a69a45146f4bfd68db4cba44256b6a8fc166554faccd6e06d0",
+      "bytes": 42519
+    },
+    {
+      "path": "components/skills/tests/test_source_metadata_contract_v2.py",
+      "sha256": "408557113aba1831933d3f398ad10cb6e02c41baf26674f7b21cdda15f59cc07",
+      "bytes": 757
+    },
+    {
+      "path": "components/skills/tests/test_suite.py",
+      "sha256": "d2a97c9edfa949d9d21ac328ae51b1f7e6b3bfc3098b2cd866e5fb3e43a7b898",
+      "bytes": 6206
+    },
+    {
+      "path": "components/skills/tools/cli/drvki.cmd",
+      "sha256": "3e791545a097edad9bf45182365c46a64b9ae25acc3e325f71147cf62291ea80",
+      "bytes": 36
+    },
+    {
+      "path": "components/skills/tools/cli/drvki.py",
+      "sha256": "47793586e99f30a27586f0a8bf15683ee615093a46c142dc726fbb25e34ab83c",
+      "bytes": 203
+    },
+    {
+      "path": "components/skills/tools/cli/drvki.sh",
+      "sha256": "c0865ec39295d4ba8b1e81ab5c519032d576be7d27cc303de86f91cb6f693d8a",
+      "bytes": 142
+    },
+    {
+      "path": "components/skills/tools/cli/drvkr.cmd",
+      "sha256": "45444979f6936a29192987033698c46af053a1a5aad066a4456504b9e3d667ca",
+      "bytes": 36
+    },
+    {
+      "path": "components/skills/tools/cli/drvkr.py",
+      "sha256": "80ba156fbefe220112ee211a51f7528b06924f83b4644f86157198943f24169c",
+      "bytes": 204
+    },
+    {
+      "path": "components/skills/tools/cli/drvkr.sh",
+      "sha256": "11877291df2c0ba8abecb03b0e9a91ae0630a7c060d5de4fdf4a96488f0935a2",
+      "bytes": 142
+    },
+    {
+      "path": "components/skills/tools/cli/kb.cmd",
+      "sha256": "c639066903bfe800632283bc21b78e2ded7a8e629b0121f7700b828ba0e9b549",
+      "bytes": 33
+    },
+    {
+      "path": "components/skills/tools/cli/kb.py",
+      "sha256": "d1656f09344255fbfe23cf4e6a23b40267d28a3e69144e5a6d990e475c4b3458",
+      "bytes": 200
+    },
+    {
+      "path": "components/skills/tools/cli/kb.sh",
+      "sha256": "1fff1ba5ba4c53301ef52fc86a36c6c3df2b8e2f3d65e9af6015749516b71774",
+      "bytes": 139
+    },
+    {
+      "path": "components/skills/tools/install/config_migrate.py",
+      "sha256": "8501d786fbc68a7566c8b6750973410f6253e3b2f2a1f86eba04768c8505dcd4",
+      "bytes": 11866
+    },
+    {
+      "path": "components/skills/tools/install/dependency_check.py",
+      "sha256": "4d7cdf77e18ba519073d14c7e09b021fa1a5673a8772a038e20608b78ea28915",
+      "bytes": 3413
+    },
+    {
+      "path": "components/skills/tools/install/validate_commands.py",
+      "sha256": "32efc4c4017d22ac87674185e048312f12f2aae7c7b3bc63689a32180628c414",
+      "bytes": 1851
+    },
+    {
+      "path": "components/skills/tools/install/write_cli.py",
+      "sha256": "907c1ac75d8da08db7fa2bb4b90308e64e5284f5dbf6c3483627c1dc4361b962",
+      "bytes": 2459
+    },
+    {
+      "path": "components/skills/tools/release/build_release.py",
+      "sha256": "fab787b373db6db5158e74c83612d7f7ad33cba3e70809dec157be6e1c12d8a3",
+      "bytes": 2798
+    },
+    {
+      "path": "components/skills/VERSION",
+      "sha256": "be695fc8092ad3706d7d7d3b5104e1eaf8fe69666e5958e375c9952a06fa9514",
+      "bytes": 6
+    },
+    {
+      "path": "components/skills/worker/.dockerignore",
+      "sha256": "21056534b0f73b689a2f9504e095645ed20a5b084c2b2aefad53f38874035941",
+      "bytes": 38
+    },
+    {
+      "path": "components/skills/worker/.env.example",
+      "sha256": "dc6a181cf545109b241cce1d3456145c46bf4641a346387567862f58c3c38877",
+      "bytes": 382
+    },
+    {
+      "path": "components/skills/worker/Dockerfile",
+      "sha256": "bcfd5cc162dbea9452cf9e414989abadfce40d9d2f88e0b938932449b86d11c1",
+      "bytes": 385
+    },
+    {
+      "path": "components/skills/worker/drvknowledge_worker/__init__.py",
+      "sha256": "583ddabdba5e91b97e8767145a0b1009a02f377c3bb05fe450ec65473b618691",
+      "bytes": 54
+    },
+    {
+      "path": "components/skills/worker/drvknowledge_worker/__main__.py",
+      "sha256": "d9fb26141bae193aeb471182ccbd363473e9abf7f599975784a8bea322a6b891",
+      "bytes": 1629
+    },
+    {
+      "path": "components/skills/worker/drvknowledge_worker/client.py",
+      "sha256": "2213e69a12737a48d7948d1805d928f762761786ce0bf5c1cbb473ca503c0393",
+      "bytes": 3920
+    },
+    {
+      "path": "components/skills/worker/drvknowledge_worker/compiler.py",
+      "sha256": "858f53a8981a240d0d0100ebd621f63da9d8eb9e1f4b11286be104a058b6b372",
+      "bytes": 6662
+    },
+    {
+      "path": "components/skills/worker/drvknowledge_worker/runner.py",
+      "sha256": "a7f1b5065fd4ec0c290061783caffc544093052e58f010d5fabfc0567cc310ec",
+      "bytes": 2982
+    },
+    {
+      "path": "components/skills/worker/pyproject.toml",
+      "sha256": "370d53d15fb66fe28b78b6e105a05100e8b3787c0d7277e4db06bbcb8b0f9b8e",
+      "bytes": 274
+    },
+    {
+      "path": "components/skills/worker/tests/test_worker.py",
+      "sha256": "f0e9e43a2e8d09a3fe0b64a0dcaa058178e97ab1d7b72e0303b3df6708318921",
+      "bytes": 5328
+    },
+    {
+      "path": "contracts/compatibility.json",
+      "sha256": "58bee36ee8170b266b02c0fd1587c0901820c52ad07085d63bf3c78b21fd1c50",
+      "bytes": 401
+    },
+    {
+      "path": "contracts/error-envelope.v2.schema.json",
+      "sha256": "c35f1d4182ced18d774d7681225545e19d1080df58de74ee09cfa262ce51fe4b",
+      "bytes": 819
+    },
+    {
+      "path": "contracts/fixtures/error-envelope.v2.valid.json",
+      "sha256": "5da9fe7624d786dd8533de85bce97449ebaa402ee77da3bbaa43abc6cc3454a1",
+      "bytes": 255
+    },
+    {
+      "path": "contracts/fixtures/governance-status.v2.valid.json",
+      "sha256": "d7e037e63659edb7ac441ad9429328ca4f92a77e0f9cde8845696dc58c7c1e3a",
+      "bytes": 436
+    },
+    {
+      "path": "contracts/fixtures/intake-request.v2.valid.json",
+      "sha256": "b6a8603c727095d6dd03599d11826533b1b72b4134c4a509412f7da2886cbd2b",
+      "bytes": 574
+    },
+    {
+      "path": "contracts/fixtures/knowledge-bundle.v2.valid.json",
+      "sha256": "a05ff6710bbbb822a720363c29b39733283db772bd89e88f8ebdd3576926b1a6",
+      "bytes": 1156
+    },
+    {
+      "path": "contracts/fixtures/wiki-result.v2.valid.json",
+      "sha256": "e8f36ef6cd0b3dc9c6cb3a4876d313892fe1ed635527e8bc796e6d6dbdab5aab",
+      "bytes": 1015
+    },
+    {
+      "path": "contracts/fixtures/wiki-task.v2.valid.json",
+      "sha256": "864444e372167e8ba40a6465aa12a228a53271c36b779bb08457892df9df090a",
+      "bytes": 1115
+    },
+    {
+      "path": "contracts/governance-status.v2.schema.json",
+      "sha256": "f77eb16e30121da83562cadd9344e8841d1ecbc581ca65780265da0d764a070e",
+      "bytes": 1647
+    },
+    {
+      "path": "contracts/intake-request.v2.schema.json",
+      "sha256": "ef03ce01ec644ece8858e6816dddd3c23be0f86269d5fa8c1e27fd4e81bed83f",
+      "bytes": 1636
+    },
+    {
+      "path": "contracts/knowledge-bundle.v2.schema.json",
+      "sha256": "ebe146a8dd1d9268ee2fa29105e5d24196d3f171eb09472bad39d5e66e8f0712",
+      "bytes": 3503
+    },
+    {
+      "path": "contracts/ragflow/chat-assistant.v1.json",
+      "sha256": "bb7b23c0ed4d681720a5a3fcfe58ac2c7f020d3106a37bf520742828e67665e6",
+      "bytes": 2666
+    },
+    {
+      "path": "contracts/ragflow/chat-assistant.v2.json",
+      "sha256": "5f1ba64b98689bf326aa0dc6672b5e6f077e93dc02d5fcf068e5f242d6bba842",
+      "bytes": 2726
+    },
+    {
+      "path": "contracts/tools/__init__.py",
+      "sha256": "61073281f4e12b3c29cd8c2d44dd1f6bde7b25fc9b231b99b3c3c113f77d3942",
+      "bytes": 51
+    },
+    {
+      "path": "contracts/tools/validate.py",
+      "sha256": "9cf065ec8754eb38327c8ae2ed3828806fba52e9af652f4838528d681a25a349",
+      "bytes": 5686
+    },
+    {
+      "path": "contracts/wiki-result.v2.schema.json",
+      "sha256": "7395a7c27d402059794b2140d967add354579de3ece89741de4327d9b3b531b6",
+      "bytes": 3076
+    },
+    {
+      "path": "contracts/wiki-task.v2.schema.json",
+      "sha256": "d052040e4ca55c35fca936b1f6241a2e1d89cb0e7fc8407ab6afcff21aa8615b",
+      "bytes": 2924
+    },
+    {
+      "path": "deploy/.env.example",
+      "sha256": "0a89ac83b780cf7eb3932b185eb6659caba74d7d7167e1e6da69e266268d2c92",
+      "bytes": 1641
+    },
+    {
+      "path": "deploy/cloud-validation/compose.p0-v202.yaml",
+      "sha256": "1a36ae319d5e46dd5d71af3e40d59fbe7f62f526bb4b36d39b83439f9c3ec141",
+      "bytes": 1419
+    },
+    {
+      "path": "deploy/compose.full-stack.yaml",
+      "sha256": "968c0319465c694f4fcb430429b76f55359f9faf8b18082aacbd4248972da144",
+      "bytes": 410
+    },
+    {
+      "path": "deploy/compose.yaml",
+      "sha256": "16be2523b94a8aed0fa0909970510a7410095c1f350c55688a34c96494a1ec55",
+      "bytes": 5279
+    },
+    {
+      "path": "deploy/fake-ragflow/Dockerfile",
+      "sha256": "95c88af587e8433764dba4e400cfb2ea95e93d826b805b0858862159e7007737",
+      "bytes": 196
+    },
+    {
+      "path": "deploy/fake-ragflow/server.py",
+      "sha256": "4a631841f65e3bbe068f8ee6321039a3f31829cbdc9fd407d93c25a70fd3521a",
+      "bytes": 7018
+    },
+    {
+      "path": "deploy/scripts/backup.sh",
+      "sha256": "0bc05737857d0fbcb5cb10b5a4849f6eccdb2435cb3e0dffc443a97614b173cc",
+      "bytes": 986
+    },
+    {
+      "path": "deploy/scripts/export-oci.sh",
+      "sha256": "5810ad1779ea3e3f8bf52a17eb9c40baea10fa77669045cf676a032dd47a4fd2",
+      "bytes": 480
+    },
+    {
+      "path": "deploy/scripts/import-oci.sh",
+      "sha256": "15c5a11e02acc1d306149b94f7e91f88e64bab702d72b684a0a89c6a0cb5f4a7",
+      "bytes": 957
+    },
+    {
+      "path": "deploy/scripts/rollback.sh",
+      "sha256": "8f75e04c4fac7685eb2bf2163a57f49040416b99e52701d67a70396c79ea1600",
+      "bytes": 697
+    },
+    {
+      "path": "deploy/scripts/smoke.sh",
+      "sha256": "6326c991fbb10f81a938592a90d49b79fd34c4d50ee43aadc1a2db68028e5aa9",
+      "bytes": 748
+    },
+    {
+      "path": "deploy/scripts/upgrade.sh",
+      "sha256": "3210fd2e03a73bafa2a78758f36e8eab51c5a0e80bb31cfb63bdb5fd20b8d53f",
+      "bytes": 566
+    },
+    {
+      "path": "deploy/vendor/README.md",
+      "sha256": "8feeefaf956390093e370c291d475f05e1255916402455c2ee84c91c05920494",
+      "bytes": 566
+    },
+    {
+      "path": "docs/ACCEPTANCE_CHECKLIST_V2.md",
+      "sha256": "dfa31c6fb6f13b633c5888c20dcb728f77a24683786ab88bc8fc631c998986f0",
+      "bytes": 1347
+    },
+    {
+      "path": "docs/BASELINE_TEST_REPORT.md",
+      "sha256": "b943bf99c82eb818c128b581c14f434767066f71d713a307f25d9e565161c574",
+      "bytes": 792
+    },
+    {
+      "path": "docs/CLOUD_INTRANET_SIMULATION_REPORT_2026-08-31.md",
+      "sha256": "ef15033255e028207e08ee679d9f085c866aab8a5f69467b4bb8541a445babb8",
+      "bytes": 15529
+    },
+    {
+      "path": "docs/CLOUD_RC_VALIDATION_REPORT_2026-08-30.md",
+      "sha256": "267bf9581f683cf721c31a537f1bd8c1811e5a61ce95c8a3900b30a1d72b4a7f",
+      "bytes": 4454
+    },
+    {
+      "path": "docs/COMPATIBILITY_MATRIX.md",
+      "sha256": "3e4f95f4cca414bbe1af4d84511b3db0b2ecff4b5e6b3bcd930cef5212868525",
+      "bytes": 1110
+    },
+    {
+      "path": "docs/COMPLETE_DELIVERY_V2.0.2_20260904.md",
+      "sha256": "2a5567a566dd58b04ed1db4d6f16a280fb465602b9cae1e87e59196a6543a100",
+      "bytes": 3202
+    },
+    {
+      "path": "docs/DEPLOYMENT_V2.md",
+      "sha256": "adb941b3dae5e349fe639f0a0b9453a09dafb9779380e05b3cad193ffe876e6f",
+      "bytes": 3440
+    },
+    {
+      "path": "docs/P0_CLOUD_ACCEPTANCE_V2.0.2_20260904.md",
+      "sha256": "6da49e298ff2c5d870d62c420ecea938c1f84e1c77c0e04c64dec2fa629f9ef7",
+      "bytes": 4182
+    },
+    {
+      "path": "docs/RAGFLOW_MANUAL_SANITIZATION_V1.md",
+      "sha256": "6d8f2289d0023345b08c99833380006de2e7793b1f344a425e275b4c842fbf5d",
+      "bytes": 7855
+    },
+    {
+      "path": "docs/RAGFLOW_V027_P0_DEPLOYMENT.md",
+      "sha256": "9cd7a42b3697893c3feda6f5a337fb67c1d1165579306367a1af4f48904fb342",
+      "bytes": 3975
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-30-cloud-intranet-simulation.md",
+      "sha256": "a593f09485a4585ff70833bf96555bae143a00c0168f43292be6d8d7a3362099",
+      "bytes": 12416
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-30-v2-dual-plane-implementation.md",
+      "sha256": "7200fb51d490a6481785b43689a8c0a7ac5963b12308691f1f7f8762ba0f8da7",
+      "bytes": 3975
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-04-grokbot-style-exploration.md",
+      "sha256": "8d5371750d96a306610dc0757ff4d94bd3ce5c788b55401c57f4de50ba9855b8",
+      "bytes": 6937
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-04-ragflow-manual-sanitization.md",
+      "sha256": "48f4560380f5327d48454f31f7c497c846beb237411b640f47cd112c0e3db6a7",
+      "bytes": 11458
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-07-governance-usability-and-rag-controls.md",
+      "sha256": "39bbcacbb64d21d76e49a839c6316162018a0a3b1910d71d6970069b97af3564",
+      "bytes": 11936
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-08-chapter-quality-review-units.md",
+      "sha256": "f6b032ddf7757b54d94a3ba06f3acb9abe1f1f9f7a465addf2b340d513180b64",
+      "bytes": 11345
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-08-ragflow-widget-and-recall-v4.md",
+      "sha256": "73793182996d688e589d1653c31a1a8abf9ea1bd1c681a1b0f92712f7e1f9223",
+      "bytes": 23359
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-30-cloud-intranet-simulation-design.md",
+      "sha256": "90d3d075d32b88563d90b96873fba72e6d731712691a82808c43dcb3c51b7053",
+      "bytes": 3735
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-30-v2-dual-plane-design.md",
+      "sha256": "d715e40aabe7450320bf8b83024d5c9afdf8a61b29fba1f4602ecba146cc8e50",
+      "bytes": 1495
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-04-grokbot-style-exploration-design.md",
+      "sha256": "93abd110b14e4672219147b550fb6529f600193b310390b4852a4c5feedcc33a",
+      "bytes": 4536
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-04-ragflow-manual-sanitization-design.md",
+      "sha256": "885348295fd589461130449a30393ee7572128561841cbf82d801d89ab3088e9",
+      "bytes": 7247
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-07-governance-usability-and-rag-controls-design.md",
+      "sha256": "840d8c662424f7f53bb545c2e0394179ddb76f342fcac15456c75d433bf2c772",
+      "bytes": 3995
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-08-chapter-quality-review-units-design.md",
+      "sha256": "4ba4b4340a51fefc0cbef692c24c527e4c86b060ba23ac39714420af828d325f",
+      "bytes": 3755
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-08-ragflow-widget-and-recall-v4-design.md",
+      "sha256": "5e304d08621ba7d082472b2c57e439259619eb6da923735bcd4172b8c822d54e",
+      "bytes": 11234
+    },
+    {
+      "path": "docs/V2.0.3_CHANGELOG.md",
+      "sha256": "84ef452df73bfe1087485e83fc2a4a90b8bb9f254b23f85c54416dafa0c2d414",
+      "bytes": 2756
+    },
+    {
+      "path": "docs/V2.0.3_DEPLOYMENT_AND_ACCEPTANCE.md",
+      "sha256": "de09cc1682134216e1636bb64b7c86bcef68341a27736fccb7334e491b6f96c0",
+      "bytes": 5766
+    },
+    {
+      "path": "policies/release-security.json",
+      "sha256": "019d0e690f2f741159d4bfdd0192ee88c4d73d13f4a8f18af6dceb93b5f483be",
+      "bytes": 1064
+    },
+    {
+      "path": "tests/contracts/test_contract_validation.py",
+      "sha256": "8399a39c2d9260d36247693c0fe18e93c89c8e1205d4931eb0ebbe7f71c762dd",
+      "bytes": 2438
+    },
+    {
+      "path": "tests/contracts/test_contracts_v2.py",
+      "sha256": "ca298aa4f5fb7b7420244f9a6ad810876010f260f72d9323c1cdbd2b7440e665",
+      "bytes": 3586
+    },
+    {
+      "path": "tests/release/test_ragflow_tools.py",
+      "sha256": "7e4963e47726a7a52e9398def8ba3c1aaf2d008e0156107dead1f443827da289",
+      "bytes": 4714
+    },
+    {
+      "path": "tests/release/test_release_and_deploy.py",
+      "sha256": "81979995f914b5a9c8b2a4b59b3f2312b6c3bcda3483e3dd6e537963c19d6c46",
+      "bytes": 19103
+    },
+    {
+      "path": "tools/ragflow/apply_chat_profile.py",
+      "sha256": "93094bbca067e6c6bd87a4b2aefc3b5995faec16467a7f07d7216c08b39dd4ac",
+      "bytes": 6548
+    },
+    {
+      "path": "tools/ragflow/check_widget.py",
+      "sha256": "688e8486b35cf4abf0ceae40a869d8131905a0bdc9ec38223d3416d74ebbcce5",
+      "bytes": 4882
+    },
+    {
+      "path": "tools/release/build_offline_bundle.py",
+      "sha256": "2c63b0097a7b6416e9bbd5196d006d2958b3117766e21633b6fbb45bb0c69301",
+      "bytes": 8987
+    },
+    {
+      "path": "tools/release/build_v2_release.py",
+      "sha256": "a28a2dfb6d30ddc8ff876416f69b270d1ebfb2cdd3fe2ff206f9460fc8347f52",
+      "bytes": 8920
+    },
+    {
+      "path": "tools/release/build_wheelhouse.py",
+      "sha256": "50637903ce187cce9189f0766c02c57b6aa2eaccca130ec362a8bd4af937e53b",
+      "bytes": 2837
+    },
+    {
+      "path": "tools/release/verify_release.py",
+      "sha256": "405985b8a8d758d3ebf8368e420d26774a6752dc7349acebaeb7e4281750c054",
+      "bytes": 6071
+    }
+  ]
+}
